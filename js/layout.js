@@ -161,7 +161,7 @@ jQuery(document).ready(function($) {
                     });
 
                     $('.contact-button').on('click',function() {
-                        _saveState(8);
+                        _saveState(6);
                     });
 
                     // scrolls to the top of the page.
