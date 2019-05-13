@@ -410,6 +410,14 @@ jQuery(document).ready(function($) {
             }
         });
 
-    }
+	}
+	
+	
+    /* ---------------------------------------------------------------------- */
+    /* ---------------------- DYNAMIC AGE -------------------- */
+	/* ---------------------------------------------------------------------- */
+	const now = new Date();
+
+	document.getElementById('age').textContent = now.getMonth() >= 2 && now.getDate() >= 13 ? now.getFullYear() - 1995 : now.getFullYear() - 1995 - 1;
 
 });
