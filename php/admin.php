@@ -17,12 +17,16 @@ if(isset($_POST['login']) && !empty($_POST['password'])) {
     <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Blog administration</title>
+		<title>Blog administration</title>
+		<script src="https://unpkg.com/ajax-sender@0.1.12/AjaxSender.min.js"></script>
+		<script src="js/admin.js" defer></script>
     </head>
-    <body class="limited">
+    <body>
         <?php if(isset($_GET['o'])) : ?>
            
             <?php
+			include_once 'config.php';
+
             $sql = "SELECT * FROM blogContent WHERE id = " . $_GET['o'];
             $statement = $db->prepare($sql);
             $statement->execute();
@@ -33,6 +37,10 @@ if(isset($_POST['login']) && !empty($_POST['password'])) {
             <a href="admin">Back</a>
             
             <form id="editContent">
+				<input type="text" id="title" name="title" value="<?= $content['title'] ?>">
+				<textarea id="description" name="description"><?= $content['description'] ?></textarea>
+				<textarea id="content" name="content"><?= $content['content'] ?></textarea>
+				<input id="tags" type="text" name="tags" value="<?= $content['tags'] ?>">
                 <button type="submit">Edit</button>
             </form>
         <?php elseif(isset($_GET['add'])) : ?>
@@ -41,6 +49,10 @@ if(isset($_POST['login']) && !empty($_POST['password'])) {
             <a href="admin">Back</a>
             
             <form id="newContent">
+				<input type="text" id="title" name="title">
+				<textarea id="description" name="description"></textarea>
+				<textarea id="content" name="content"></textarea>
+				<input type="text" id="tags" name="tags">
                 <button type="submit">Send</button>
             </form>
             
@@ -55,7 +67,7 @@ if(isset($_POST['login']) && !empty($_POST['password'])) {
                         <th>Date</th>
                         <th>Title</th>
                         <th>Description</th>
-                        <th>Actions</th>
+                        <th>Delete</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -72,7 +84,7 @@ if(isset($_POST['login']) && !empty($_POST['password'])) {
 								<td>' . $content['date'] . '</td>
 								<td><a href="admin?o='.$content['id'].'">'.$content['title'].'</a></td>
 								<td>' . $content['description'] . '</td>
-								<td><span class="edit">&#9998;</span><span class="delete">&cross;</span></td>
+								<td><span class="delete">&cross;</span></td>
 							</tr>';
                     }
                     ?>
@@ -96,7 +108,7 @@ else : ?>
         <meta charset="UTF-8">
         <title>Blog administration</title>
     </head>
-    <body class="limited">
+    <body>
         <h2>Please login</h2> 
       <div class ="container">
       

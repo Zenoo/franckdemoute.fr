@@ -1,0 +1,15 @@
+Options -MultiViews
+RewriteEngine on
+
+# remove trailing slash
+RewriteRule ^(.*)\/(\?.*)?$ $1$2 [R=301,L]
+
+#Redirects
+RewriteRule ^$ index.php [QSA,L]
+RewriteRule ^admin$ php/admin.php [QSA,L]
+RewriteRule ^blog/(.*)$ php/blog.php?title=$1 [QSA,L]
+RewriteRule ^sitemap.xml$ php/sitemap.php [QSA,L]
+
+#Force HTTPS
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]

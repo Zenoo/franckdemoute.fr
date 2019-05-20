@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>{title}</title>
+	<meta name="description" content="{description}">
+</head>
+<body>
+	<article>
+		<header>
+			<h1>{title}</h1>
+		</header>
+		<section>
+			{content}
+		</section>
+		<footer>
+			<div id="tags"></div>
+			<p>Posté le <time datetime="{date}">{date}</time> par F. DEMOUTE.</p>
+		</footer>
+	</article>
+	<script>
+		const
+			time= document.querySelector('time'),
+			date = new Date(time.getAttribute('datetime'));
+
+		time.textContent = date.toLocaleDateString();
+
+		"{tags}".split('|').forEach(tag => {
+			document.getElementById('tags').insertAdjacentHTML('beforeend', '<span data-tag="' + tag + '">' + tag + '</span>');
+		});
+
+	</script>
+</body>
+</html>

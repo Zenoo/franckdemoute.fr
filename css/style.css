@@ -177,6 +177,10 @@ a.hs-totop-link {
     z-index: 99 !important;
     background: #2b303b;
 }
+
+.mt-10{
+	margin-top: 10px;
+}
 /*--------------------------------------------------
 ----------------------- Sidbar ---------------------
 ---------------------------------------------------*/
@@ -1472,7 +1476,8 @@ ul.marquee li {
 
 .publication-section #mygrid .publication_item {
     display: block;
-    margin-bottom: 10px;
+	margin-bottom: 10px;
+	width: 100%;
 }
 
 .publication-section .media .ex-link {
@@ -2165,11 +2170,13 @@ ul.marquee li {
 }
 
 .work_desc .image_work {
-    padding: 20px;
+	padding: 20px;
+	text-align: center;
 }
 
 .work_desc .image_work img {
-    width: 100%;
+	max-width: 100%;
+	height: auto;
 }
 
 .work_desc .project_content {
@@ -2226,8 +2233,6 @@ ul.marquee li {
 }
 
 .works-section figure.effect-milo img {
-    width: -webkit-calc(100% + 60px);
-    width: calc(100% + 60px);
     opacity: 1;
     -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
     transition: opacity 0.35s, transform 0.35s;
