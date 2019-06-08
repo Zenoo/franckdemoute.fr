@@ -17,6 +17,12 @@
 	<meta property="og:type" content="website">
 	<meta property="og:image" content="https://franckdemoute.fr/images/preview.jpg">
 
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:site" content="@Zenoo0" />
+	<meta name="twitter:title" content="FRANCK DEMOUTE | Développeur Full-Stack" />
+	<meta name="twitter:description" content="Développeur Full-Stack sur La Rochelle. Spécialiste Javascript Back/Front. HTML5/CSS3/ES2019/NodeJS/Java" />
+	<meta name="twitter:image" content="https://franckdemoute.fr/images/preview.jpg" />
+
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107380958-1"></script>
 	<script>
