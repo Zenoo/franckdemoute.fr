@@ -67,7 +67,7 @@
 
 		<!-- Sidebar-->
 		<div class="aside1">
-			<a class="contact-button"><i class="fa fa-paper-plane"></i></a>
+			<a class="contact-button" title="Contact"><i class="fa fa-paper-plane"></i></a>
 			<a class="download-button" href="https://stackoverflow.com/story/zenoo" target="_blank"
 				title="Developer Story"><i class="fa fa-cloud-download"></i></a>
 			<div class="aside-content"><span class="part1">FRANCK DEMOUTE</span><span class="part2">Développeur
@@ -79,7 +79,7 @@
 
 			<!-- Profil Image-->
 			<div class="hs-headline">
-				<a id="my-link" href="#my-panel"><i class="fa fa-bars"></i></a>
+				<a id="my-link" href="#my-panel" title="Menu"><i class="fa fa-bars"></i></a>
 				<a class="download" href="https://stackoverflow.com/story/zenoo" target="_blank"
 					title="Developer Story"><i class="fa fa-cloud-download"></i></a>
 				<div class="img-wrap">
@@ -101,12 +101,12 @@
 
 			<!-- menu -->
 			<nav>
-				<a href="#section1"><span class="menu_name">À PROPOS</span><span class="fa fa-home"></span> </a>
-				<a href="#section2"><span class="menu_name">CV</span><span class="fa fa-newspaper-o"></span> </a>
-				<a href="#section3"><span class="menu_name">ACTUALITÉS</span><span class="fa fa-pencil"></span> </a>
-				<a href="#section4"><span class="menu_name">COMPÉTENCES</span><span class="fa fa-diamond"></span> </a>
-				<a href="#section5"><span class="menu_name">RÉALISATIONS</span><span class="fa fa-archive"></span> </a>
-				<a href="#section6"><span class="menu_name">CONTACT</span><span class="fa fa-paper-plane"></span> </a>
+				<a href="#section1" title="A Propos"><span class="menu_name">À PROPOS</span><span class="fa fa-home"></span> </a>
+				<a href="#section2" title="CV"><span class="menu_name">CV</span><span class="fa fa-newspaper-o"></span> </a>
+				<a href="#section3" title="Actualités"><span class="menu_name">ACTUALITÉS</span><span class="fa fa-pencil"></span> </a>
+				<a href="#section4" title="Compétences"><span class="menu_name">COMPÉTENCES</span><span class="fa fa-diamond"></span> </a>
+				<a href="#section5" title="Réalisations"><span class="menu_name">RÉALISATIONS</span><span class="fa fa-archive"></span> </a>
+				<a href="#section6" title="Contact"><span class="menu_name">CONTACT</span><span class="fa fa-paper-plane"></span> </a>
 			</nav>
 			<!-- end menu-->
 			<!-- social icons -->
@@ -121,7 +121,7 @@
 		<!-- End sidebar -->
 
 		<!-- Go To Top Button -->
-		<a href="#hs-menu" class="hs-totop-link"><i class="fa fa-chevron-up"></i></a>
+		<a href="#hs-menu" class="hs-totop-link" title="Retour en haut"><i class="fa fa-chevron-up"></i></a>
 		<!-- End Go To Top Button -->
 
 		<!-- hs-content-scroller -->
@@ -129,11 +129,11 @@
 			<!-- Header -->
 			<div id="header_container">
 				<div id="header">
-					<div><a class="home"><i class="fa fa-home"></i></a>
+					<div><a class="home" title="Accueil"><i class="fa fa-home"></i></a>
 					</div>
-					<div><a href="" class="previous-page arrow"><i class="fa fa-angle-left"></i></a>
+					<div><a href="" class="previous-page arrow" title="Section précédente"><i class="fa fa-angle-left"></i></a>
 					</div>
-					<div><a href="" class="next-page arrow"><i class="fa fa-angle-right"></i></a>
+					<div><a href="" class="next-page arrow" title="Section suivante"><i class="fa fa-angle-right"></i></a>
 					</div>
 					<!-- News scroll -->
 					<div class="news-scroll">
@@ -143,7 +143,7 @@
 								for ($i=0; $i < 5; $i++) { 
 									$title = str_replace(' ', '-', preg_replace("/[^a-zA-Z0-9 ]+/", "", $contents[$i]['title']));
 
-									echo '<li><strong><a href="#publication-detail-' . substr($title, 0, 10) . '" class="ex-link open_popup" data-effect="mfp-zoom-out">' . $contents[$i]['title'] . '</a></strong> - ' . $contents[$i]['description'] . '</li>';
+									echo '<li><strong><a href="#publication-detail-' . substr($title, 0, 10) . '" class="ex-link open_popup" data-effect="mfp-zoom-out" title="' . str_replace('"', '\"', $contents[$i]['title']) . '">' . $contents[$i]['title'] . '</a></strong> - ' . $contents[$i]['description'] . '</li>';
 								}
 							?>
 						</ul>
@@ -177,7 +177,7 @@
 								</div>
 								<div class="face1 card-face">
 									<div class="about-cover card-face">
-										<a class="map-location" data-card-front="data-card-front">
+										<a class="map-location" data-card-front="data-card-front" title="Ma position">
 											<picture>
 												<source srcset="images/webp/map-icon.webp" type="image/webp">
 												<source srcset="images/map-icon.png" type="image/png">
@@ -215,13 +215,13 @@
 								<div class="tabbable tabs-vertical tabs-left">
 									<ul id="myTab" class="nav nav-tabs">
 										<li class="active">
-											<a href="#bio" data-toggle="tab">Bio</a>
+											<a href="#bio" data-toggle="tab" title="Bio">Bio</a>
 										</li>
 										<li>
-											<a href="#hobbies" data-toggle="tab">Loisirs</a>
+											<a href="#hobbies" data-toggle="tab" title="Loisirs">Loisirs</a>
 										</li>
 										<li>
-											<a href="#facts" data-toggle="tab">Stats</a>
+											<a href="#facts" data-toggle="tab" title="Stats">Stats</a>
 										</li>
 									</ul>
 									<div id="myTabContent" class="tab-content">
@@ -229,7 +229,7 @@
 										<div class="tab-pane fade in active" id="bio">
 											<h3>BIO</h3>
 											<h4>À PROPOS DE MOI</h4>
-											<p>Je suis un développeur de <span id="age">24</span> ans. J'ai commencé à
+											<p>Je m'appelle Franck Demoute. Je suis un développeur Full-Stack de <span id="age">24</span> ans. J'ai commencé à
 												coder dès l'âge de 12 ans, en me formant seul avec un livre sur le
 												XHTML. En y repensant, c'était très archaïque, mais ça m'a introduit au
 												monde du développement. Je suis très vite passé sur du HTML/CSS, qui me
@@ -256,7 +256,7 @@
 												me concentrer sur la tâche en cours. Je rassemble d'ailleurs les
 												musiques que j'utilise pour coder dans <a
 													href="https://open.spotify.com/user/zenoo0/playlist/4DL9EGxzyd3S14XWnX8fQp?si=s37Vnf3uRZ-tSl9JA7pzeA"
-													target="_blank">cette playlist</a>.
+													target="_blank" title="Playlist">cette playlist</a>.
 											</p>
 										</div>
 										<div class="tab-pane fade" id="hobbies">
@@ -499,20 +499,20 @@
 						<div class="row publication-form">
 							<div class="col-md-6 publication-filter">
 								<div class="card-drop">
-									<a class='toggle'>
+									<a class='toggle' title="Filtres">
 										<i class='icon-suitcase'></i>
 										<span class='label-active'>TOUT</span>
 									</a>
 									<ul id="filter">
-										<li class='active'><a data-label="ALL" data-group="all">TOUT</a>
+										<li class='active'><a data-label="ALL" data-group="all" title="Tout">TOUT</a>
 										</li>
-										<li><a data-label="JAVASCRIPT" data-group="javascript">JAVASCRIPT</a>
+										<li><a data-label="JAVASCRIPT" data-group="javascript" title="Javascript">JAVASCRIPT</a>
 										</li>
-										<li><a data-label="CSS" data-group="css">CSS</a>
+										<li><a data-label="CSS" data-group="css" title="CSS">CSS</a>
 										</li>
-										<li><a data-label="PLUGIN" data-group="plugin">PLUGIN</a>
+										<li><a data-label="PLUGIN" data-group="plugin" title="Plugin">PLUGIN</a>
 										</li>
-										<li><a data-label="UPDATE" data-group="update">UPDATE</a>
+										<li><a data-label="UPDATE" data-group="update" title="Update">UPDATE</a>
 										</li>
 									</ul>
 								</div>
@@ -556,7 +556,7 @@
 										data-date-publication="' .  explode(' ', $content['date'])[0] . '">
 										<div class="media">
 											<a href="#publication-detail-' . substr($title, 0, 10) . '" class="ex-link open_popup"
-												data-effect="mfp-zoom-out"><i class="fa fa-plus-square-o"></i></a>
+												data-effect="mfp-zoom-out" title="' . str_replace('"', '\"', $title) . '"><i class="fa fa-plus-square-o"></i></a>
 											<div class="date pull-left">
 												<span class="day">' . strftime('%e', $date) . '</span>
 												<span class="month">' . strtoupper(strftime('%b', $date)) . '</span>
@@ -578,7 +578,7 @@
 												' . $tagHTML . '
 												<div class="mt-10">' . $content['content'] . '</div>
 											</div>
-											<a class="ext_link" href="/blog/' . $title . '" target="_blank"><i class="fa fa-external-link"></i></a>
+											<a class="ext_link" href="/blog/' . $title . '" target="_blank" title="' . str_replace('"', '\"', $title) . '"><i class="fa fa-external-link"></i></a>
 											<div style="clear:both"></div>
 										</div>
 									</div>
@@ -701,11 +701,11 @@
 									<span class="label">Design Integration</span>
 									<div class="portfolio_button">
 										<h3>Biard Déménagements</h3>
-										<a href=".work1" class="open_popup" data-effect="mfp-zoom-out">
+										<a href="#work-biard" class="open_popup" data-effect="mfp-zoom-out" title="Biard Déménagements">
 											<i class="hovicon effect-9 sub-b"><i class="fa fa-search"></i></i>
 										</a>
 									</div>
-									<div class="mfp-hide mfp-with-anim work_desc work1">
+									<div class="mfp-hide mfp-with-anim work_desc" id="work-biard">
 										<div class="col-md-6">
 											<div class="image_work">
 												<picture>
@@ -721,14 +721,14 @@
 												<p class="project_desc">J'ai dirigé dans son intégralité l'intégration
 													de la refonte graphique du site <a
 														href="https://biard-demenagements.fr"
-														target="_blank">biard-demenagements.fr</a>.
+														target="_blank"  title="Biard Déménagements">biard-demenagements.fr</a>.
 													<br>
 													<br>Ce projet m'a appris à travailler en collaboration avec une
 													agence de design, et à perfectionner mes méthodes de référencement
 													SEO.</p>
 											</div>
 										</div>
-										<a class="ext_link" href="https://biard-demenagements.fr" target="_blank"><i
+										<a class="ext_link" href="https://biard-demenagements.fr" target="_blank" title="Biard Déménagements"><i
 												class="fa fa-external-link"></i></a>
 										<div style="clear:both"></div>
 									</div>
@@ -747,11 +747,11 @@
 									<span class="label">Web Application</span>
 									<div class="portfolio_button">
 										<h3>QuizConex</h3>
-										<a href=".work2" class="open_popup" data-effect="mfp-zoom-out">
+										<a href="#work-quizconex" class="open_popup" data-effect="mfp-zoom-out" title="QuizConex">
 											<i class="hovicon effect-9 sub-b"><i class="fa fa-search"></i></i>
 										</a>
 									</div>
-									<div class="mfp-hide mfp-with-anim work_desc work2">
+									<div class="mfp-hide mfp-with-anim work_desc work2" id="work-quizconex">
 										<div class="col-md-6">
 											<div class="image_work">
 												<picture>
@@ -773,7 +773,7 @@
 													connaissances sur les PWA et les ServiceWorkers.</p>
 											</div>
 										</div>
-										<a class="ext_link" href="https://quizzconex.fr" target="_blank"><i
+										<a class="ext_link" href="https://quizzconex.fr" target="_blank" title="QuizConex"><i
 												class="fa fa-external-link"></i></a>
 										<div style="clear:both"></div>
 									</div>
@@ -792,11 +792,11 @@
 									<span class="label">Website</span>
 									<div class="portfolio_button">
 										<h3>Obcom.fr</h3>
-										<a href=".work3" class="open_popup" data-effect="mfp-zoom-out">
+										<a href="#work-obcom" class="open_popup" data-effect="mfp-zoom-out" title="Obcom">
 											<i class="hovicon effect-9 sub-b"><i class="fa fa-search"></i></i>
 										</a>
 									</div>
-									<div class="mfp-hide mfp-with-anim work_desc work3">
+									<div class="mfp-hide mfp-with-anim work_desc" id="#work-obcom">
 										<div class="col-md-6">
 											<div class="image_work">
 												<picture>
@@ -818,7 +818,7 @@
 
 											</div>
 										</div>
-										<a class="ext_link" href="https://obcom.fr" target="_blank"><i
+										<a class="ext_link" href="https://obcom.fr" target="_blank" title="Obcom"><i
 												class="fa fa-external-link"></i></a>
 										<div style="clear:both"></div>
 									</div>
@@ -837,11 +837,11 @@
 									<span class="label">Website</span>
 									<div class="portfolio_button">
 										<h3>Somovers.com</h3>
-										<a href=".work4" class="open_popup" data-effect="mfp-zoom-out">
+										<a href="#work-somovers" class="open_popup" data-effect="mfp-zoom-out" title="Somovers">
 											<i class="hovicon effect-9 sub-b"><i class="fa fa-search"></i></i>
 										</a>
 									</div>
-									<div class="mfp-hide mfp-with-anim work_desc work4">
+									<div class="mfp-hide mfp-with-anim work_desc" id="work-somovers" title="Somovers">
 										<div class="col-md-6">
 											<div class="image_work">
 												<picture>
@@ -861,7 +861,7 @@
 													clés pour faire ressortir le site dans les moteurs de recherche.</p>
 											</div>
 										</div>
-										<a class="ext_link" href="https://somovers.com" target="_blank"><i
+										<a class="ext_link" href="https://somovers.com" target="_blank" title="Somovers"><i
 												class="fa fa-external-link"></i></a>
 										<div style="clear:both"></div>
 									</div>
@@ -880,11 +880,11 @@
 									<span class="label">Online Store</span>
 									<div class="portfolio_button">
 										<h3>Clos Normand</h3>
-										<a href=".work5" class="open_popup" data-effect="mfp-zoom-out">
+										<a href="#work-clos-normand" class="open_popup" data-effect="mfp-zoom-out" title="Clos Normand">
 											<i class="hovicon effect-9 sub-b"><i class="fa fa-search"></i></i>
 										</a>
 									</div>
-									<div class="mfp-hide mfp-with-anim work_desc work5">
+									<div class="mfp-hide mfp-with-anim work_desc" id="clos-normand">
 										<div class="col-md-6">
 											<div class="image_work">
 												<picture>
@@ -906,7 +906,7 @@
 													une base assez bancale. La combinaison d'une refonte graphique et de divers ajustements ont permis de relancer la vente en ligne de la Pépinière.</p>
 											</div>
 										</div>
-										<a class="ext_link" href="https://clos-normand.com" target="_blank"><i class="fa fa-external-link"></i></a>
+										<a class="ext_link" href="https://clos-normand.com" target="_blank" title="Clos Normand"><i class="fa fa-external-link"></i></a>
 										<div style="clear:both"></div>
 									</div>
 								</figcaption>
@@ -924,11 +924,11 @@
 									<span class="label">Website</span>
 									<div class="portfolio_button">
 										<h3>Atlantis Eco BTP</h3>
-										<a href=".work6" class="open_popup" data-effect="mfp-zoom-out">
+										<a href="#work-atlantis" class="open_popup" data-effect="mfp-zoom-out" title="Atlantis Eco BTP">
 											<i class="hovicon effect-9 sub-b"><i class="fa fa-search"></i></i>
 										</a>
 									</div>
-									<div class="mfp-hide mfp-with-anim work_desc work6">
+									<div class="mfp-hide mfp-with-anim work_desc" id="work-atlantis">
 										<div class="col-md-6">
 											<div class="image_work">
 												<picture>
@@ -946,7 +946,7 @@
 													<br>De l'aspect visuel à la structure du texte, ce nouveau site permet à l'entreprise de mettre en avant ses réalisations et son expertise.</p>
 											</div>
 										</div>
-										<a class="ext_link" href="https://atlantisecobtp.fr/" target="_blank"><i class="fa fa-external-link"></i></a>
+										<a class="ext_link" href="https://atlantisecobtp.fr/" target="_blank" title="Atlantis Eco BTP"><i class="fa fa-external-link"></i></a>
 										<div style="clear:both"></div>
 									</div>
 								</figcaption>
