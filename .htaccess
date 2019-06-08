@@ -4,12 +4,6 @@ RewriteEngine on
 # remove trailing slash
 RewriteRule ^(.*)\/(\?.*)?$ $1$2 [R=301,L]
 
-#Redirects
-RewriteRule ^admin$ php/admin.php [QSA,L]
-RewriteRule ^blog/(.*)$ php/blog.php?title=$1 [QSA,L]
-RewriteRule ^sitemap.xml$ php/sitemap.php [QSA,L]
-RewriteRule ^$ home.php [QSA,L]
-
 #Force HTTPS
 RewriteCond %{HTTPS} !=on
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
@@ -17,3 +11,9 @@ RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 #Remove www
 RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
 RewriteRule ^(.*)$ http://%1%{REQUEST_URI} [R=301,QSA,NC,L]
+
+#Redirects
+RewriteRule ^admin$ php/admin.php [QSA,L]
+RewriteRule ^blog/(.*)$ php/blog.php?title=$1 [QSA,L]
+RewriteRule ^sitemap.xml$ php/sitemap.php [QSA,L]
+RewriteRule ^$ home.php [QSA,L]
