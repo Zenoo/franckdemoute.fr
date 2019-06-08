@@ -1033,12 +1033,12 @@
 	<script src="js/lazyload.min.js"></script>
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/default.js"></script>
+	<script type="text/javascript" src="js/default.min.js"></script>
 	<script type="text/javascript"
 		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCnGaWqD_3GJmIj-r1DYeneHDefa-S5NqU"></script>
-	<script type="text/javascript" src="js/watch.js"></script>
-	<script type="text/javascript" src="js/layout.js"></script>
-	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/watch.min.js"></script>
+	<script type="text/javascript" src="js/layout.min.js"></script>
+	<script type="text/javascript" src="js/main.min.js"></script>
 
 	<!-- END PLUGIN SCRIPTS -->
 </body>
