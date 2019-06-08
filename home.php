@@ -4,14 +4,14 @@
 <?php setlocale(LC_ALL, 'fr_FR'); ?>
 
 <head>
-	<title>FRANCK DEMOUTE | Développeur Full-Stack</title>
+	<title>FRANCK DEMOUTE | Développeur Full-Stack sur La Rochelle</title>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<meta name="description" content="Développeur Full-Stack sur La Rochelle. Spécialiste Javascript Back/Front. HTML5/CSS3/ES2019/NodeJS/Java">
 	<meta name="author" content="Franck Demoute">
 
-	<meta property="og:title" content="FRANCK DEMOUTE | Développeur Full-Stack">
-	<meta property="og:site_name" content="FRANCK DEMOUTE | Développeur Full-Stack">
+	<meta property="og:title" content="FRANCK DEMOUTE | Développeur Full-Stack sur La Rochelle">
+	<meta property="og:site_name" content="FRANCK DEMOUTE | Développeur Full-Stack sur La Rochelle">
 	<meta property="og:url" content="https://franckdemoute.fr">
 	<meta property="og:description" content="Développeur Full-Stack sur La Rochelle. Spécialiste Javascript Back/Front. HTML5/CSS3/ES2019/NodeJS/Java">
 	<meta property="og:type" content="website">
@@ -19,7 +19,7 @@
 
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:site" content="@Zenoo0" />
-	<meta name="twitter:title" content="FRANCK DEMOUTE | Développeur Full-Stack" />
+	<meta name="twitter:title" content="FRANCK DEMOUTE | Développeur Full-Stack sur La Rochelle" />
 	<meta name="twitter:description" content="Développeur Full-Stack sur La Rochelle. Spécialiste Javascript Back/Front. HTML5/CSS3/ES2019/NodeJS/Java" />
 	<meta name="twitter:image" content="https://franckdemoute.fr/images/preview.jpg" />
 
