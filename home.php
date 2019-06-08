@@ -40,16 +40,15 @@
 	<!-- CSS | STYLE -->
 
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
-	<link rel="stylesheet" type="text/css" href="css/linecons.css" />
-	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
-	<link rel="stylesheet" type="text/css" href="css/colors/green.css" />
+	<link rel="stylesheet" href="css/font-awesome.min.css" media="none" onload="if(media!='all')media='all'"><noscript><link rel="stylesheet" href="css/font-awesome.min.css"></noscript>
+	<link rel="stylesheet" href="css/linecons.min.css" media="none" onload="if(media!='all')media='all'"><noscript><link rel="stylesheet" href="css/linecons.min.css"></noscript>
+	<link rel="stylesheet" href="css/normalize.min.css" media="none" onload="if(media!='all')media='all'"><noscript><link rel="stylesheet" href="css/normalize.min.css"></noscript>
+	<link rel="stylesheet" href="css/colors/green.min.css" media="none" onload="if(media!='all')media='all'"><noscript><link rel="stylesheet" href="css/colors/green.min.css"></noscript>
 	<link rel="stylesheet" type="text/css" href="css/style.min.css" />
 
 	<!-- CSS | Google Fonts -->
-
-	<link href='https://fonts.googleapis.com/css?family=Montserrat:400' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Raleway:200,400,300,500,600' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400" media="none" onload="if(media!='all')media='all'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400"></noscript>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:200,400,300,500,600" media="none" onload="if(media!='all')media='all'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:200,400,300,500,600"></noscript>
 
 	<noscript>
 		<style>
