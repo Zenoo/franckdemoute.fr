@@ -34,6 +34,7 @@
 	</script>
 
 
+	<link rel="canonical" href="https://franckdemoute.fr">
 	<link rel="shortcut icon" href="images/favicon.ico">
 
 	<!-- CSS | STYLE -->
