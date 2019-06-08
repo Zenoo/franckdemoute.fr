@@ -533,7 +533,7 @@
 									<div class="publication_item" data-groups=\'["all",' . $tagJson . ']\'
 										data-date-publication="' .  explode(' ', $content['date'])[0] . '">
 										<div class="media">
-											<a href=".publication-detail-' . $title . '" class="ex-link open_popup"
+											<a href=".publication-detail-' . substr($title, 0, 10) . '" class="ex-link open_popup"
 												data-effect="mfp-zoom-out"><i class="fa fa-plus-square-o"></i></a>
 											<div class="date pull-left">
 												<span class="day">' . strftime('%e', $date) . '</span>
@@ -549,7 +549,7 @@
 											' . $tagHTML . '
 											<span class="publication_authors"><strong>F. Demoute</strong></span>
 										</div>
-										<div class="mfp-hide mfp-with-anim publication-detail-' . $title . ' publication-detail">
+										<div class="mfp-hide mfp-with-anim publication-detail-' . substr($title, 0, 10) . ' publication-detail">
 											<div class="project_content">
 												<h3 class="publication_title">' . $content['title'] . '</h3>
 												<span class="publication_authors"><strong>F. Demoute</strong></span>
