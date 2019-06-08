@@ -1043,7 +1043,7 @@ var _gsScope = "undefined" != typeof module && module.exports && "undefined" != 
 		}; if (!window.cancelAnimationFrame) window.cancelAnimationFrame = function (id) { clearTimeout(id) }
 	})(); initHeader(); initAnimation(); addListeners(); function initHeader() {
 		width = window.innerWidth; height = window.innerHeight; target = { x: width / 2, y: height / 2 }; largeHeader = document.getElementById("page-loader"); largeHeader.style.height =
-			height + "px"; canvas = document.getElementById("demo-canvas"); canvas.width = width; canvas.height = height; ctx = canvas.getContext("2d"); points = []; for (var x = 0; x < width; x = x + width / 5)for (var y = 0; y < height; y = y + height / 5) { var px = x + Math.random() * width / 5; var py = y + Math.random() * height / 5; var p = { x: px, originX: px, y: py, originY: py }; points.push(p) }console.log(points.length); for (var i = 0; i < points.length; i++) {
+			height + "px"; canvas = document.getElementById("demo-canvas"); canvas.width = width; canvas.height = height; ctx = canvas.getContext("2d"); points = []; for (var x = 0; x < width; x = x + width / 10)for (var y = 0; y < height; y = y + height / 10) { var px = x + Math.random() * width / 10; var py = y + Math.random() * height / 10; var p = { x: px, originX: px, y: py, originY: py }; points.push(p) } for (var i = 0; i < points.length; i++) {
 				var closest = []; var p1 = points[i]; for (var j = 0; j < points.length; j++) {
 					var p2 = points[j]; if (!(p1 == p2)) {
 						var placed = false; for (var k = 0; k < 5; k++)if (!placed) if (closest[k] ==
