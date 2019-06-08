@@ -1015,12 +1015,12 @@
 	</div>
 
 	<!-- NON CRITICAL CSS -->
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/bootstrap.min.css" media="none" onload="if(media!='all')media='all'"><noscript><link rel="stylesheet" href="css/bootstrap.min.css"></noscript>
 	<link rel="stylesheet" href="css/font-awesome.min.css" media="none" onload="if(media!='all')media='all'"><noscript><link rel="stylesheet" href="css/font-awesome.min.css"></noscript>
 	<link rel="stylesheet" href="css/linecons.min.css" media="none" onload="if(media!='all')media='all'"><noscript><link rel="stylesheet" href="css/linecons.min.css"></noscript>
 	<link rel="stylesheet" href="css/normalize.min.css" media="none" onload="if(media!='all')media='all'"><noscript><link rel="stylesheet" href="css/normalize.min.css"></noscript>
 	<link rel="stylesheet" href="css/colors/green.min.css" media="none" onload="if(media!='all')media='all'"><noscript><link rel="stylesheet" href="css/colors/green.min.css"></noscript>
-	<link rel="stylesheet" type="text/css" href="css/style.min.css" />
+	<link rel="stylesheet" href="css/style.min.css" media="none" onload="if(media!='all')media='all'"><noscript><link rel="stylesheet" href="css/style.min.css"></noscript>
 
 	<!-- CSS | Google Fonts -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400" media="none" onload="if(media!='all')media='all'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400"></noscript>
