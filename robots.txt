@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow: /v1/*
+Disallow: /v2/*
+
+Sitemap: https://franckdemoute.fr/sitemap.xml

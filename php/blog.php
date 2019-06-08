@@ -50,8 +50,16 @@
 		// Get requested blog content
 		$sql = "SELECT * FROM blogContent WHERE REPLACE(REPLACE(title, ' ', '-'), '''', '') = ?";
 		$statement = $db->prepare($sql);
-		if($statement->execute(array($_GET['title']))){
-			$content = $statement->fetch(PDO::FETCH_ASSOC);
+		$statement->execute(array($_GET['title']));
+		$content = $statement->fetch(PDO::FETCH_ASSOC);
+
+		if($content){
+			$tags = '';
+			$splitTags = explode('|', $content['tags']);
+			foreach ($tag as $splitTags){
+				$tags .= '<span data-tag="' . $tag . '">' . tag . '</span>';
+			}
+
 			echo str_replace(
 				'{title}',
 				$content['title'],
@@ -66,17 +74,28 @@
 							$content['date'],
 							str_replace(
 								'{tags}',
-								$content['tags'],
-								file_get_contents("../blog/template.html")
+								$tags,
+								str_replace(
+									'{url}',
+									"http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]",
+									str_replace(
+										'{readableDate}',
+										date("d/m/Y", strtotime($content['date'])),
+										file_get_contents("../blog/template.html")
+									)
+								)
 							)
 						)
 					)
 				)
 			);
 		}else{
-			print_r($statement->errorInfo());
 			http_response_code(404);
-			echo file_get_contents("../blog/404.html");
+			echo str_replace(
+				'{url}',
+				"http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]",
+				file_get_contents("../blog/404.html")
+			);
 		}
 	}
 ?>
