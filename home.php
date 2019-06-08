@@ -127,7 +127,9 @@
 						<ul id="marquee" class="marquee">
 							<?php
 								foreach($contents as $content){
-									echo '<li><strong>' . $content['title'] . '</strong> - ' . $content['description'] . '</li>';
+									$title = str_replace(' ', '-', str_replace('\'', '', $content['title']));
+
+									echo '<li><strong><a href=".' . substr($title, 0, 10) . '">' . $content['title'] . '</a></strong> - ' . $content['description'] . '</li>';
 								}
 							?>
 						</ul>
