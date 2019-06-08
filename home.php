@@ -126,10 +126,10 @@
 						<span><i class="fa fa-line-chart"></i>News : </span>
 						<ul id="marquee" class="marquee">
 							<?php
-								foreach($contents as $content){
-									$title = str_replace(' ', '-', str_replace('\'', '', $content['title']));
+								for ($i=0; $i < 5; $i++) { 
+									$title = str_replace(' ', '-', str_replace('\'', '', $contents[$i]['title']));
 
-									echo '<li><strong><a href=".' . substr($title, 0, 10) . '" class="ex-link open_popup" data-effect="mfp-zoom-out">' . $content['title'] . '</a></strong> - ' . $content['description'] . '</li>';
+									echo '<li><strong><a href=".' . substr($title, 0, 10) . '" class="ex-link open_popup" data-effect="mfp-zoom-out">' . $contents[$i]['title'] . '</a></strong> - ' . $contents[$i]['description'] . '</li>';
 								}
 							?>
 						</ul>
