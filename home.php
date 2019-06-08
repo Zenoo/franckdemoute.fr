@@ -129,7 +129,7 @@
 								foreach($contents as $content){
 									$title = str_replace(' ', '-', str_replace('\'', '', $content['title']));
 
-									echo '<li><strong><a href=".' . substr($title, 0, 10) . '">' . $content['title'] . '</a></strong> - ' . $content['description'] . '</li>';
+									echo '<li><strong><a href=".' . substr($title, 0, 10) . '" class="ex-link open_popup" data-effect="mfp-zoom-out">' . $content['title'] . '</a></strong> - ' . $content['description'] . '</li>';
 								}
 							?>
 						</ul>

@@ -497,6 +497,13 @@ a.hs-totop-link {
     transition: all .2s ease;
 }
 
+#header a.exlink {
+	font-size: inherit;
+	line-height: unset;
+	height: auto;
+	width: auto;
+}
+
 #header .arrow {
     font-size: 27px
 }
