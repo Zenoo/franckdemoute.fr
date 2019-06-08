@@ -490,6 +490,8 @@
 										</li>
 										<li><a data-label="CSS" data-group="css">CSS</a>
 										</li>
+										<li><a data-label="PLUGIN" data-group="plugin">PLUGIN</a>
+										</li>
 										<li><a data-label="UPDATE" data-group="update">UPDATE</a>
 										</li>
 									</ul>
