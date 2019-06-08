@@ -93,7 +93,7 @@
 					</picture>
 				</div>
 				<div class="profile_info">
-					<h1>Franck Demoute span<span class="hidden"> | Développeur Full-Stack</span></h1>
+					<h1>Franck Demoute<span class="hidden"> | Développeur Full-Stack</span></h1>
 					<h4>Développeur Full-Stack</h4>
 					<h6><span class="fa fa-location-arrow"></span>&nbsp;&nbsp;&nbsp;La Rochelle, FR</h6>
 				</div>
