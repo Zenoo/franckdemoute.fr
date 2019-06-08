@@ -10,6 +10,17 @@
 	<meta name="description" content="Développeur Full-Stack sur La Rochelle. Spécialiste Javascript Back/Front. HTML5/CSS3/ES2019/NodeJS/Java">
 	<meta name="author" content="Franck Demoute">
 
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107380958-1"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-107380958-1');
+	</script>
+
+
 	<link rel="shortcut icon" href="images/favicon.ico">
 
 	<!-- CSS | STYLE -->
