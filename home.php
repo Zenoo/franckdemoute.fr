@@ -486,11 +486,11 @@
 									<ul id="filter">
 										<li class='active'><a data-label="ALL" data-group="all">TOUT</a>
 										</li>
-										<li><a data-label="JAVASCRIPT" data-group="JAVASCRIPT">JAVASCRIPT</a>
+										<li><a data-label="JAVASCRIPT" data-group="javascript">JAVASCRIPT</a>
 										</li>
-										<li><a data-label="CSS" data-group="CSS">CSS</a>
+										<li><a data-label="CSS" data-group="css">CSS</a>
 										</li>
-										<li><a data-label="UPDATE" data-group="UPDATE">UPDATE</a>
+										<li><a data-label="UPDATE" data-group="update">UPDATE</a>
 										</li>
 									</ul>
 								</div>
