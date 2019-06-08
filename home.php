@@ -154,9 +154,7 @@
 						<ul id="marquee" class="marquee">
 							<?php
 								for ($i=0; $i < 5; $i++) { 
-									$title = str_replace(' ', '-', preg_replace("/[^a-zA-Z0-9 ]+/", "", $contents[$i]['title']));
-
-									echo '<li><strong><a href="#publication-detail-' . substr($title, 0, 10) . '" class="ex-link open_popup" data-effect="mfp-zoom-out" title="' . str_replace('"', '\"', $contents[$i]['title']) . '">' . $contents[$i]['title'] . '</a></strong> - ' . $contents[$i]['description'] . '</li>';
+									echo '<li><strong><a href="#publication-detail-' . $contents[$i]['path'] . '" class="ex-link open_popup" data-effect="mfp-zoom-out" title="' . str_replace('"', '\"', $contents[$i]['title']) . '">' . $contents[$i]['title'] . '</a></strong> - ' . $contents[$i]['description'] . '</li>';
 								}
 							?>
 						</ul>
@@ -572,9 +570,6 @@
 						<div id="mygrid">
 							<?php
 								foreach($contents as $content){
-									// Create title
-									$title = str_replace(' ', '-', preg_replace("/[^a-zA-Z0-9 ]+/", "", $content['title']));
-
 									// Create tags string
 									$tags = explode('|', $content['tags']);
 									$tagJson = ''; $tagHTML = '';
@@ -592,8 +587,8 @@
 									<div class="publication_item" data-groups=\'["all",' . $tagJson . ']\'
 										data-date-publication="' .  explode(' ', $content['date'])[0] . '">
 										<div class="media">
-											<a href="#publication-detail-' . substr($title, 0, 10) . '" class="ex-link open_popup"
-												data-effect="mfp-zoom-out" title="' . str_replace('"', '\"', $title) . '"><i class="fa fa-plus-square-o"></i></a>
+											<a href="#publication-detail-' . $content['path'] . '" class="ex-link open_popup"
+												data-effect="mfp-zoom-out" title="' . $content['title'] . '"><i class="fa fa-plus-square-o"></i></a>
 											<div class="date pull-left">
 												<span class="day">' . strftime('%e', $date) . '</span>
 												<span class="month">' . strtoupper(strftime('%b', $date)) . '</span>
@@ -608,14 +603,14 @@
 											' . $tagHTML . '
 											<span class="publication_authors"><strong>F. Demoute</strong></span>
 										</div>
-										<div class="mfp-hide mfp-with-anim publication-detail" id="publication-detail-' . substr($title, 0, 10) . '">
+										<div class="mfp-hide mfp-with-anim publication-detail" id="publication-detail-' . $content['path'] . '">
 											<div class="project_content">
 												<h3 class="publication_title">' . $content['title'] . '</h3>
 												<span class="publication_authors"><strong>F. Demoute</strong></span>
 												' . $tagHTML . '
 												<div class="mt-10">' . $content['content'] . '</div>
 											</div>
-											<a class="ext_link" href="/blog/' . $title . '" target="_blank" title="' . str_replace('"', '\"', $title) . '"><i class="fa fa-external-link"></i></a>
+											<a class="ext_link" href="/blog/' . $content['path'] . '" target="_blank" title="' . $content['title'] . '"><i class="fa fa-external-link"></i></a>
 											<div style="clear:both"></div>
 										</div>
 									</div>

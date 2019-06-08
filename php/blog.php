@@ -48,7 +48,7 @@
 		include_once 'config.php';
 		
 		// Get requested blog content
-		$sql = "SELECT * FROM blogContent WHERE REPLACE(REPLACE(title, ' ', '-'), '''', '') = ?";
+		$sql = "SELECT * FROM blogContent WHERE `path` = ?";
 		$statement = $db->prepare($sql);
 		$statement->execute(array($_GET['title']));
 		$content = $statement->fetch(PDO::FETCH_ASSOC);
