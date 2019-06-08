@@ -227,6 +227,30 @@
 									<div id="myTabContent" class="tab-content">
 
 										<div class="tab-pane fade in active" id="bio">
+											<script type="application/ld+json">
+											{
+											"@context": "https://schema.org",
+											"@type": "Person",
+											"address": {
+												"@type": "PostalAddress",
+												"addressLocality": "La Rochelle",
+												"postalCode": "17000"
+											},
+											"email": "pro@franckdemoute.fr",
+											"image": "images/photo.png",
+											"jobTitle": "Full-Stack Developer",
+											"name": "Franck Demoute",
+											"alumniOf": "La Rochelle University",
+											"birthPlace": "Verdun",
+											"birthDate": "1995.03.13",
+											"height": "171 cm",
+											"gender": "male",
+											"memberOf": "Obcom",
+											"nationality": "French",
+											"telephone": "06 72 35 21 77",
+											"url": "https://franckdemoute.fr"
+											}
+											</script>
 											<h3>BIO</h3>
 											<h4>À PROPOS DE MOI</h4>
 											<p>Je m'appelle Franck Demoute. Je suis un développeur Full-Stack de <span id="age">24</span> ans. J'ai commencé à
