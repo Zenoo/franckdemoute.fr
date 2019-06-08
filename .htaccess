@@ -33,7 +33,7 @@ AddOutputFilterByType DEFLATE application/x-javascript
 
 #Cache
 # One year for image files
-<filesMatch ".(jpg|jpeg|png|gif|ico)$">
+<filesMatch ".(jpg|jpeg|png|gif|ico|webp)$">
 Header set Cache-Control "max-age=31536000, public"
 </filesMatch>
 # One month for css and js
