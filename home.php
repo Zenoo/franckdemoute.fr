@@ -86,10 +86,10 @@
 				<a class="download" href="https://stackoverflow.com/story/zenoo" target="_blank"
 					title="Developer Story"><i class="fa fa-cloud-download"></i></a>
 				<div class="img-wrap">
-					<picture class="lazy">
-						<source data-srcset="images/webp/photo.webp" type="image/webp" width="150" height="150">
-						<source data-srcset="images/photo.png" type="image/png" width="150" height="150">
-						<img data-src="images/photo.png" alt="Franck Demoute" width="150" height="150">
+					<picture>
+						<source class="lazy" data-srcset="images/webp/photo.webp" type="image/webp" width="150" height="150">
+						<source class="lazy" data-srcset="images/photo.png" type="image/png" width="150" height="150">
+						<img class="lazy" data-src="images/photo.png" alt="Franck Demoute" width="150" height="150">
 					</picture>
 				</div>
 				<div class="profile_info">
@@ -179,10 +179,10 @@
 								<div class="face1 card-face">
 									<div class="about-cover card-face">
 										<a class="map-location" data-card-front="data-card-front" title="Ma position">
-											<picture class="lazy">
-												<source data-srcset="images/webp/map-icon.webp" type="image/webp">
-												<source data-srcset="images/map-icon.png" type="image/png">
-												<img data-src="images/map-icon.png" alt="Je suis ici !">
+											<picture>
+												<source class="lazy" data-srcset="images/webp/map-icon.webp" type="image/webp">
+												<source class="lazy" data-srcset="images/map-icon.png" type="image/png">
+												<img class="lazy" data-src="images/map-icon.png" alt="Je suis ici !">
 											</picture>
 										</a>
 										<div class="about-details">
@@ -714,10 +714,10 @@
 						<div class="portfolio">
 							<!-- Portfolio Item -->
 							<figure class="effect-milo">
-								<picture class="lazy">
-									<source data-srcset="images/webp/realisations/biard-demenagements.fr.webp" type="image/webp" width="395" height="222">
-									<source data-srcset="images/realisations/biard-demenagements.fr.png" type="image/png" width="395" height="222">
-									<img data-src="images/realisations/biard-demenagements.fr.png" alt="Site de Biard Déménagements" width="395" height="222">
+								<picture>
+									<source class="lazy" data-srcset="images/webp/realisations/biard-demenagements.fr.webp" type="image/webp" width="395" height="222">
+									<source class="lazy" data-srcset="images/realisations/biard-demenagements.fr.png" type="image/png" width="395" height="222">
+									<img class="lazy" data-src="images/realisations/biard-demenagements.fr.png" alt="Site de Biard Déménagements" width="395" height="222">
 								</picture>
 								<figcaption>
 									<span class="label">Design Integration</span>
@@ -730,10 +730,10 @@
 									<div class="mfp-hide mfp-with-anim work_desc" id="work-biard">
 										<div class="col-md-6">
 											<div class="image_work">
-												<picture class="lazy">
-													<source data-srcset="images/webp/realisations/biard-demenagements.fr-big.webp" type="image/webp" width="747" height="420">
-													<source data-srcset="images/realisations/biard-demenagements.fr-big.png" type="image/png" width="747" height="420">
-													<img data-src="images/realisations/biard-demenagements.fr-big.png" alt="Site de Biard Déménagements" width="747" height="420">
+												<picture>
+													<source class="lazy" data-srcset="images/webp/realisations/biard-demenagements.fr-big.webp" type="image/webp" width="747" height="420">
+													<source class="lazy" data-srcset="images/realisations/biard-demenagements.fr-big.png" type="image/png" width="747" height="420">
+													<img class="lazy" data-src="images/realisations/biard-demenagements.fr-big.png" alt="Site de Biard Déménagements" width="747" height="420">
 												</picture>
 											</div>
 										</div>
@@ -760,10 +760,10 @@
 
 							<!-- Portfolio Item -->
 							<figure class="effect-milo">
-								<picture class="lazy">
-									<source data-srcset="images/webp/realisations/quizzconex.fr.webp" type="image/webp" width="395" height="222">
-									<source data-srcset="images/realisations/quizzconex.fr.png" type="image/png" width="395" height="222">
-									<img data-src="images/realisations/quizzconex.fr.png" alt="Site de QuizConex" width="395" height="222">
+								<picture>
+									<source class="lazy" data-srcset="images/webp/realisations/quizzconex.fr.webp" type="image/webp" width="395" height="222">
+									<source class="lazy" data-srcset="images/realisations/quizzconex.fr.png" type="image/png" width="395" height="222">
+									<img class="lazy" data-src="images/realisations/quizzconex.fr.png" alt="Site de QuizConex" width="395" height="222">
 								</picture>
 								<figcaption>
 									<span class="label">Web Application</span>
@@ -776,10 +776,10 @@
 									<div class="mfp-hide mfp-with-anim work_desc work2" id="work-quizconex">
 										<div class="col-md-6">
 											<div class="image_work">
-												<picture class="lazy">
-													<source data-srcset="images/webp/realisations/quizzconex.fr-big.webp" type="image/webp" width="747" height="420">
-													<source data-srcset="images/realisations/quizzconex.fr-big.png" type="image/png" width="747" height="420">
-													<img data-src="images/realisations/quizzconex.fr-big.png" alt="Site de QuizConex" width="747" height="420">
+												<picture>
+													<source class="lazy" data-srcset="images/webp/realisations/quizzconex.fr-big.webp" type="image/webp" width="747" height="420">
+													<source class="lazy" data-srcset="images/realisations/quizzconex.fr-big.png" type="image/png" width="747" height="420">
+													<img class="lazy" data-src="images/realisations/quizzconex.fr-big.png" alt="Site de QuizConex" width="747" height="420">
 												</picture>
 											</div>
 										</div>
@@ -805,10 +805,10 @@
 
 							<!-- Portfolio Item -->
 							<figure class="effect-milo">
-								<picture class="lazy">
-									<source data-srcset="images/webp/realisations/obcom.fr.webp" type="image/webp" width="395" height="222">
-									<source data-srcset="images/realisations/obcom.fr.png" type="image/png" width="395" height="222">
-									<img data-src="images/realisations/obcom.fr.png" alt="Site d'Obcom'" width="395" height="222">
+								<picture>
+									<source class="lazy" data-srcset="images/webp/realisations/obcom.fr.webp" type="image/webp" width="395" height="222">
+									<source class="lazy" data-srcset="images/realisations/obcom.fr.png" type="image/png" width="395" height="222">
+									<img class="lazy" data-src="images/realisations/obcom.fr.png" alt="Site d'Obcom'" width="395" height="222">
 								</picture>
 								<figcaption>
 									<span class="label">Website</span>
@@ -821,10 +821,10 @@
 									<div class="mfp-hide mfp-with-anim work_desc" id="work-obcom">
 										<div class="col-md-6">
 											<div class="image_work">
-												<picture class="lazy">
-													<source data-srcset="images/webp/realisations/obcom.fr-big.webp" type="image/webp" width="747" height="420">
-													<source data-srcset="images/realisations/obcom.fr-big.png" type="image/png" width="747" height="420">
-													<img data-src="images/realisations/obcom.fr-big.png" alt="Site d'Obcom" width="747" height="420">
+												<picture>
+													<source class="lazy" data-srcset="images/webp/realisations/obcom.fr-big.webp" type="image/webp" width="747" height="420">
+													<source class="lazy" data-srcset="images/realisations/obcom.fr-big.png" type="image/png" width="747" height="420">
+													<img class="lazy" data-src="images/realisations/obcom.fr-big.png" alt="Site d'Obcom" width="747" height="420">
 												</picture>
 											</div>
 										</div>
@@ -850,10 +850,10 @@
 
 							<!-- Portfolio Item -->
 							<figure class="effect-milo">
-								<picture class="lazy">
-									<source data-srcset="images/webp/realisations/somovers.com.webp" type="image/webp" width="395" height="222">
-									<source data-srcset="images/realisations/somovers.com.png" type="image/png" width="395" height="222">
-									<img data-src="images/realisations/somovers.com.png" alt="Site de Somovers" width="395" height="222">
+								<picture>
+									<source class="lazy" data-srcset="images/webp/realisations/somovers.com.webp" type="image/webp" width="395" height="222">
+									<source class="lazy" data-srcset="images/realisations/somovers.com.png" type="image/png" width="395" height="222">
+									<img class="lazy" data-src="images/realisations/somovers.com.png" alt="Site de Somovers" width="395" height="222">
 								</picture>
 								<figcaption>
 									<span class="label">Website</span>
@@ -866,10 +866,10 @@
 									<div class="mfp-hide mfp-with-anim work_desc" id="work-somovers" title="Somovers">
 										<div class="col-md-6">
 											<div class="image_work">
-												<picture class="lazy">
-													<source data-srcset="images/webp/realisations/somovers.com-big.webp" type="image/webp" width="747" height="420">
-													<source data-srcset="images/realisations/somovers.com-big.png" type="image/png" width="747" height="420">
-													<img data-src="images/realisations/somovers.com-big.png" alt="Site de Somovers" width="747" height="420">
+												<picture>
+													<source class="lazy" data-srcset="images/webp/realisations/somovers.com-big.webp" type="image/webp" width="747" height="420">
+													<source class="lazy" data-srcset="images/realisations/somovers.com-big.png" type="image/png" width="747" height="420">
+													<img class="lazy" data-src="images/realisations/somovers.com-big.png" alt="Site de Somovers" width="747" height="420">
 												</picture>
 											</div>
 										</div>
@@ -893,10 +893,10 @@
 
 							<!-- Portfolio Item -->
 							<figure class="effect-milo">
-								<picture class="lazy">
-									<source data-srcset="images/webp/realisations/clos-normand.com.webp" type="image/webp" width="395" height="222">
-									<source data-srcset="images/realisations/clos-normand.com.png" type="image/png" width="395" height="222">
-									<img data-src="images/realisations/clos-normand.com.png" alt="Site du Clos Normand" width="395" height="222">
+								<picture>
+									<source class="lazy" data-srcset="images/webp/realisations/clos-normand.com.webp" type="image/webp" width="395" height="222">
+									<source class="lazy" data-srcset="images/realisations/clos-normand.com.png" type="image/png" width="395" height="222">
+									<img class="lazy" data-src="images/realisations/clos-normand.com.png" alt="Site du Clos Normand" width="395" height="222">
 								</picture>
 								<figcaption>
 									<span class="label">Online Store</span>
@@ -909,10 +909,10 @@
 									<div class="mfp-hide mfp-with-anim work_desc" id="work-clos-normand">
 										<div class="col-md-6">
 											<div class="image_work">
-												<picture class="lazy">
-													<source data-srcset="images/webp/realisations/clos-normand.com-big.webp" type="image/webp" width="747" height="420">
-													<source data-srcset="images/realisations/clos-normand.com-big.png" type="image/png" width="747" height="420">
-													<img data-src="images/realisations/clos-normand.com-big.png" alt="Site du Clos Normand" width="747" height="420">
+												<picture>
+													<source class="lazy" data-srcset="images/webp/realisations/clos-normand.com-big.webp" type="image/webp" width="747" height="420">
+													<source class="lazy" data-srcset="images/realisations/clos-normand.com-big.png" type="image/png" width="747" height="420">
+													<img class="lazy" data-src="images/realisations/clos-normand.com-big.png" alt="Site du Clos Normand" width="747" height="420">
 												</picture>
 											</div>
 										</div>
@@ -937,10 +937,10 @@
 
 							<!-- Portfolio Item -->
 							<figure class="effect-milo">
-								<picture class="lazy">
-									<source data-srcset="images/webp/realisations/atlantis.webp" type="image/webp" width="395" height="222">
-									<source data-srcset="images/realisations/atlantis.png" type="image/png" width="395" height="222">
-									<img data-src="images/realisations/atlantis.png" alt="Site de la société Atlantis Eco BTP" width="395" height="222">
+								<picture>
+									<source class="lazy" data-srcset="images/webp/realisations/atlantis.webp" type="image/webp" width="395" height="222">
+									<source class="lazy" data-srcset="images/realisations/atlantis.png" type="image/png" width="395" height="222">
+									<img class="lazy" data-src="images/realisations/atlantis.png" alt="Site de la société Atlantis Eco BTP" width="395" height="222">
 								</picture>
 								<figcaption>
 									<span class="label">Website</span>
@@ -953,10 +953,10 @@
 									<div class="mfp-hide mfp-with-anim work_desc" id="work-atlantis">
 										<div class="col-md-6">
 											<div class="image_work">
-												<picture class="lazy">
-													<source data-srcset="images/webp/realisations/atlantis-big.webp" type="image/webp" width="747" height="420">
-													<source data-srcset="images/realisations/atlantis-big.png" type="image/png" width="747" height="420">
-													<img data-src="images/realisations/atlantis-big.png" alt="Site de la société Atlantis Eco BTP" width="747" height="420">
+												<picture>
+													<source class="lazy" data-srcset="images/webp/realisations/atlantis-big.webp" type="image/webp" width="747" height="420">
+													<source class="lazy" data-srcset="images/realisations/atlantis-big.png" type="image/png" width="747" height="420">
+													<img class="lazy" data-src="images/realisations/atlantis-big.png" alt="Site de la société Atlantis Eco BTP" width="747" height="420">
 												</picture>
 											</div>
 										</div>
