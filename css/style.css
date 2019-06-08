@@ -497,7 +497,7 @@ a.hs-totop-link {
     transition: all .2s ease;
 }
 
-#header a.exlink {
+#header a.ex-link {
 	font-size: inherit;
 	line-height: unset;
 	height: auto;
