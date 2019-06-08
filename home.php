@@ -1023,8 +1023,9 @@
 	<link rel="stylesheet" href="css/style.min.css" media="none" onload="if(media!='all')media='all'"><noscript><link rel="stylesheet" href="css/style.min.css"></noscript>
 
 	<!-- CSS | Google Fonts -->
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400" media="none" onload="if(media!='all')media='all'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400"></noscript>
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:200,400,300,500,600" media="none" onload="if(media!='all')media='all'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:200,400,300,500,600"></noscript>
+	<link rel="stylesheet" href="css/fonts.min.css" media="none" onload="if(media!='all')media='all'"><noscript><link rel="stylesheet" href="css/fonts.min.css"></noscript>
+	<!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400" media="none" onload="if(media!='all')media='all'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400"></noscript> -->
+	<!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:200,400,300,500,600" media="none" onload="if(media!='all')media='all'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:200,400,300,500,600"></noscript> -->
 
 
 	<!-- PLUGIN SCRIPTS -->
