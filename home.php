@@ -581,7 +581,7 @@
 												data-effect="mfp-zoom-out" title="' . $content['title'] . '"><i class="fa fa-plus-square-o"></i></a>
 											<div class="date pull-left">
 												<span class="day">' . strftime('%e', $date) . '</span>
-												<span class="month">' . htmlspecialchars(strtoupper(strftime('%b', $date))) . '</span>
+												<span class="month">' . utf8_encode(strtoupper(strftime('%b', $date))) . '</span>
 												<span class="year">' . strftime('%Y', $date) . '</span>
 											</div>
 											<div class="media-body">
