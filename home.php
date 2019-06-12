@@ -323,25 +323,25 @@
 											<div class="facts-wrapper col-md-6">
 												<div class="facts-icon"><i class=" li_music"></i>
 												</div>
-												<div class="facts-number">18250</div>
+												<div class="facts-number">18320</div>
 												<div class="facts-description">HEURES DE MUSIQUE</div>
 											</div>
 											<div class="facts-wrapper col-md-6">
 												<div class="facts-icon"><i class="li_bulb"></i>
 												</div>
-												<div class="facts-number">52</div>
+												<div class="facts-number">54</div>
 												<div class="facts-description">PROJETS</div>
 											</div>
 											<div class="facts-wrapper col-md-6">
 												<div class="facts-icon"><i class="li_clock"></i>
 												</div>
-												<div class="facts-number">87600</div>
+												<div class="facts-number">87670</div>
 												<div class="facts-description">HEURES DE DEV</div>
 											</div>
 											<div class="facts-wrapper col-md-6">
 												<div class="facts-icon"><i class="li_display"></i>
 												</div>
-												<div class="facts-number">~2M</div>
+												<div class="facts-number">~3M</div>
 												<div class="facts-description">LIGNES DE CODE</div>
 											</div>
 											<div style="clear:both;"></div>
