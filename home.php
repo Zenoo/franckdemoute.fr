@@ -115,6 +115,7 @@
 			<!-- social icons -->
 			<div class="aside-footer">
 				<a href="https://zenoo.fr" title="Zenoo.fr" target="_blank"><i class="fa fa-globe"></i></a>
+				<a href="https://www.linkedin.com/in/franck-demoute/" title="LinkedIn" target="_blank"><i class="fa fa-linkedin-square"></i></a>
 				<a href="https://github.com/Zenoo" title="Github" target="_blank"><i class="fa fa-github"></i></a>
 				<a href="https://stackoverflow.com/users/3660134/zenoo" title="Stackoverflow" target="_blank"><i
 						class="fa fa-stack-overflow"></i></a>
