@@ -7,7 +7,7 @@
 	<title>FRANCK DEMOUTE | Développeur Full-Stack sur La Rochelle</title>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-	<meta name="description" content="Développeur Full-Stack sur La Rochelle. Spécialiste Javascript Back/Front. HTML5/CSS3/ES2019/NodeJS/Java">
+	<meta name="description" content="Développeur Full-Stack sur La Rochelle. Spécialiste Javascript Back/Front. HTML5 / CSS3 / ES2019 / NodeJS / Java">
 	<meta name="author" content="Franck Demoute">
 
 	<meta property="og:title" content="FRANCK DEMOUTE | Développeur Full-Stack sur La Rochelle">
