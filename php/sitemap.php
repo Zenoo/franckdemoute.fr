@@ -18,7 +18,7 @@ $contents = $statement->fetchAll(PDO::FETCH_ASSOC);
 
 foreach($contents as $content) {
 	echo '<url>
-	<loc>https://franckdemoute.fr/blog/' . str_replace(' ', '-', str_replace('\'', '', $content['title'])) . '</loc>
+	<loc>https://franckdemoute.fr/blog/' . $content['path'] . '</loc>
 	<lastmod>' . date("Y-m-d", strtotime($content['date'])) . '</lastmod>
 	<changefreq>yearly</changefreq>
 	<priority>1.0</priority>
