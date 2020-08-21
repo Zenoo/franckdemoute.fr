@@ -207,7 +207,7 @@
 												<br>Bienvenue sur mon profil professionnel</span>
 											<span class="status">
 												<span class="fa fa-circle"></span>
-												<span class="text">Disponible</span>
+												<span class="text">Occupé</span>
 											</span>
 										</div>
 									</div>
