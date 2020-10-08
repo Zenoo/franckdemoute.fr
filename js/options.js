@@ -20,12 +20,11 @@ var rsOptions = {
 		autoHover: true //Auto show will pause when mouse hovers over slider
 	},
 	clientsSlider: {
-		items: 5,
-		singleItem: false,
-		autoPlay: true,
-		stopOnHover: true,
+    lazyLoad: true,
+    pagination: false,
 		itemsDesktopSmall: [992, 4],
 		itemsTabletSmall: [767, 3],
-		itemsMobile: [320, 1]
+    itemsMobile: [320, 1],
+    autoPlay: 2000
 	}
 };

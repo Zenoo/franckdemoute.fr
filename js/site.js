@@ -162,8 +162,8 @@
 
     function initialiseGoogleMap() {
         var latlng;
-        var lat = 44.5403;
-        var lng = -78.5463;
+        var lat = 46.149276;
+        var lng = -1.155681;
         var map = $('#map');
         var mapCanvas = map.get(0);
         var map_styles = [
@@ -204,7 +204,7 @@
 
         // Map Options
         var mapOptions = {
-            zoom: 14,
+            zoom: 6,
             center: latlng,
             scrollwheel: true,
             mapTypeId: google.maps.MapTypeId.ROADMAP,
@@ -773,17 +773,7 @@
         if (clients_carousel.length > 0) {
             for (var i = 0; i < clients_carousel.length; i++) {
                 $(clients_carousel[i]).owlCarousel({
-                    lazyLoad: true,
-                    responsive: true,
-                    navigation: false,
-                    pagination: false,
-                    items: rsOptions.clientsSlider.items,
-                    singleItem: rsOptions.clientsSlider.singleItem,
-                    autoPlay: rsOptions.clientsSlider.autoPlay,
-                    stopOnHover: rsOptions.clientsSlider.stopOnHover,
-                    itemsDesktopSmall: rsOptions.clientsSlider.itemsDesktopSmall,
-                    itemsTabletSmall: rsOptions.clientsSlider.itemsTabletSmall,
-                    itemsMobile: rsOptions.clientsSlider.itemsMobile
+                    ...rsOptions.clientsSlider
                 });
             }
         }
