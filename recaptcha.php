@@ -269,9 +269,9 @@
 						
 			<!-- START: PAGE CONTENT -->
 			<?php require_once __DIR__ . '/php/recaptcha/autoload.php';				
-				$siteKey = ''; // visit https://www.google.com/recaptcha/admin to generate keys
-				$secret = '';
-				$lang = 'en'; // reCAPTCHA supported 40+ languages listed here: https://developers.google.com/recaptcha/docs/language
+				$siteKey = '6Le2GdUZAAAAAEhwa-X6TgRtEb4PF5mXaVUf--MK'; // visit https://www.google.com/recaptcha/admin to generate keys
+				$secret = '6Le2GdUZAAAAAEvy3oIMvmDPBR7UfcqmANj0DaIb';
+				$lang = 'fr'; // reCAPTCHA supported 40+ languages listed here: https://developers.google.com/recaptcha/docs/language
 			?>
 			
 			<section class="section section-text text-center">
