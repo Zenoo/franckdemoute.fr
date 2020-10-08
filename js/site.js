@@ -333,7 +333,6 @@
      */
     $(window).resize(function () {
         windowW = $(window).width();
-        windowH = $(window).height();
 
         positioningInterestsTooltips();
         positioningTimelineElements();

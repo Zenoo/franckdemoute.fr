@@ -1,6 +1,6 @@
 <?php
 
-	$emailTo = "perso@franckdemoute.fr"; // Enter your email for feedbacks here 
+	$emailTo = "pro@franckdemoute.fr"; // Enter your email for feedbacks here 
 	
 	$headers = "MIME-Version: 1.0\r\n";
 	$headers .= "Content-type: text/html; charset=utf-8\r\n";
