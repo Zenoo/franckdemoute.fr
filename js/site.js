@@ -214,17 +214,9 @@
         // Create the Map
         map = new google.maps.Map(mapCanvas, mapOptions);
 
-        var marker = new Marker({
+        var marker = new google.maps.Marker({
             map: map,
             position: latlng,
-            icon: {
-                path: SQUARE_PIN,
-                fillColor: '',
-                fillOpacity: 0,
-                strokeColor: '',
-                strokeWeight: 0
-            },
-            map_icon_label: '<span class="map-icon map-icon-postal-code"></span>'
         });
 
         // Keep Marker in Center
