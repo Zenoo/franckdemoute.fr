@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.0.16](https://github.com/Zenoo/franckdemoute.fr/compare/v4.0.15...v4.0.16) (2020-10-09)
+
+
+### Bug Fixes
+
+* translate english confirmation messages ([33d0b29](https://github.com/Zenoo/franckdemoute.fr/commit/33d0b2936291c5e05c8392f38e10062bfee13206))
+
 ### [4.0.15](https://github.com/Zenoo/franckdemoute.fr/compare/v4.0.14...v4.0.15) (2020-10-09)
 
 
