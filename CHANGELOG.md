@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.0.10](https://github.com/Zenoo/franckdemoute.fr/compare/v4.0.9...v4.0.10) (2020-10-09)
+
+
+### Bug Fixes
+
+* Removed unused JS ([2d38161](https://github.com/Zenoo/franckdemoute.fr/commit/2d3816183a083d284e3d5a44405607b00efad610))
+
 ### [4.0.9](https://github.com/Zenoo/franckdemoute.fr/compare/v4.0.8...v4.0.9) (2020-10-09)
 
 
