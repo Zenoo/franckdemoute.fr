@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.0.11](https://github.com/Zenoo/franckdemoute.fr/compare/v4.0.10...v4.0.11) (2020-10-09)
+
+
+### Bug Fixes
+
+* mobile style ([7306362](https://github.com/Zenoo/franckdemoute.fr/commit/73063626773d2a143d1017b4db42ad1a84a8fde9))
+
 ### [4.0.10](https://github.com/Zenoo/franckdemoute.fr/compare/v4.0.9...v4.0.10) (2020-10-09)
 
 
