@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.0.6](https://github.com/Zenoo/franckdemoute.fr/compare/v4.0.5...v4.0.6) (2020-10-09)
+
+
+### Bug Fixes
+
+* remove Modernizr ([5f4b587](https://github.com/Zenoo/franckdemoute.fr/commit/5f4b587a03d19886f873ec66643f451ab3e264a5))
+
 ### [4.0.5](https://github.com/Zenoo/franckdemoute.fr/compare/v4.0.4...v4.0.5) (2020-10-09)
 
 
