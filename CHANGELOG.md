@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.0.1](https://github.com/Zenoo/franckdemoute.fr/compare/v4.0.0...v4.0.1) (2020-10-09)
+
+
+### Bug Fixes
+
+* Added /v3 in NOFOLLOW ([cdf0a90](https://github.com/Zenoo/franckdemoute.fr/commit/cdf0a903b4830d8598ee3895ecb44a63a5acfd6f))
+
 ## 4.0.0 (2020-10-09)
 
 
