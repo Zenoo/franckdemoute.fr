@@ -614,66 +614,6 @@
                 $grid.isotope('layout');
             });
 
-            // Isotope Filter
-            var filter = $('.filter');
-            if (filter.length > 0) {
-                var filter_btn = filter.find('button');
-                var filter_btn_first = $('.filter-btn-group button:first-child');
-
-                filterBarLinePositioning($grid, filter_btn_first);
-                filter_btn_first.addClass('active');
-
-                filter_btn.on('click', function () {
-                    filter_btn.removeClass('active');
-                    $(this).addClass('active');
-                    $('.grid-box').addClass('animated');
-                    filterBarLinePositioning($grid, $(this));
-                });
-            }
-
-            // Isotope Append New Elements
-            var $elemTotalCount = 0;
-            var $elemLoadedCount = 0;
-            var $elemCountPerLoad = 3;
-            var $gridMore = $('.grid-more');
-            var $gridMoreBtn = $gridMore.find('.btn');
-            var $gridAjaxLoader = $gridMore.find('.ajax-loader');
-
-            $gridMoreBtn.on('click', function () {
-                $.ajax({
-                    url: "ajax/portfolio.html",
-                    dataType: "html",
-                    beforeSend: function () {
-                        // show ajax loader
-                        $gridMoreBtn.css('display', 'none');
-                        $gridAjaxLoader.css('display', 'inline-block');
-                    },
-                    success: function (data) {
-                        $elemTotalCount = $.grep($.parseHTML(data), function (el, i) {
-                            return $(el).hasClass("grid-item")
-                        }).length;
-
-                        if ($elemLoadedCount < $elemTotalCount) {
-                            for (var i = 1; i <= $elemCountPerLoad; i++) {
-
-                                var $item = $(data).filter('.grid-item:eq(' + $elemLoadedCount + ')'); // started from 0
-                                grid_seector.append($item).isotope('appended', $item);
-
-                                $elemLoadedCount++;
-                            }
-                        }
-
-                        if ($elemLoadedCount >= $elemTotalCount) {
-                            $gridMore.hide();
-                        }
-
-                        // hide ajax loader
-                        $gridMoreBtn.css('display', 'inline-block');
-                        $gridAjaxLoader.css('display', 'none');
-                    }
-                })
-            });
-
 
             // Portfolio fancybox
             var _player;
