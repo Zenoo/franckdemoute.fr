@@ -491,9 +491,9 @@
                         function (response) {
                             var data = jQuery.parseJSON(response);
                             if (data) {
-                                rsForm.append('<div class="rsFormResponce"><strong>Congratulation!</strong><br>Your email was sent successfully!</div>');
+                                rsForm.append('<div class="rsFormResponce"><strong>Bravo!</strong><br>Votre email a bien été envoyé!</div>');
                             } else {
-                                rsForm.append('<div class="rsFormResponce"><strong>OOPS!</strong> Something went wrong.<br>Please try again.</div>');
+                                rsForm.append('<div class="rsFormResponce"><strong>OOPS!</strong> une erreur est survenue.<br>Réessayez un peu plus tard.</div>');
                             }
                         }
                     );
