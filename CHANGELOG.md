@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.0.12](https://github.com/Zenoo/franckdemoute.fr/compare/v4.0.11...v4.0.12) (2020-10-09)
+
+
+### Bug Fixes
+
+* added swap to icomoon ([82dc6ee](https://github.com/Zenoo/franckdemoute.fr/commit/82dc6ee82ff6f57e602ed20aedd6f5368524f654))
+
 ### [4.0.11](https://github.com/Zenoo/franckdemoute.fr/compare/v4.0.10...v4.0.11) (2020-10-09)
 
 
