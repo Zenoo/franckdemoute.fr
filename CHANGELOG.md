@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.0.3](https://github.com/Zenoo/franckdemoute.fr/compare/v4.0.2...v4.0.3) (2020-10-09)
+
+
+### Bug Fixes
+
+* Update google maps to embed ([192c228](https://github.com/Zenoo/franckdemoute.fr/commit/192c2283dc3fda65560ed1580311c6d2d13697e2))
+
 ### [4.0.2](https://github.com/Zenoo/franckdemoute.fr/compare/v4.0.1...v4.0.2) (2020-10-09)
 
 
