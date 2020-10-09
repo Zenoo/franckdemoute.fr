@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.0.15](https://github.com/Zenoo/franckdemoute.fr/compare/v4.0.14...v4.0.15) (2020-10-09)
+
+
+### Bug Fixes
+
+* Improve cache ([5d917cf](https://github.com/Zenoo/franckdemoute.fr/commit/5d917cfa9c9394c3dd6ab7268c757aee522aa07b))
+
 ### [4.0.14](https://github.com/Zenoo/franckdemoute.fr/compare/v4.0.13...v4.0.14) (2020-10-09)
 
 
