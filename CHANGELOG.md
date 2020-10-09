@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.0.13](https://github.com/Zenoo/franckdemoute.fr/compare/v4.0.12...v4.0.13) (2020-10-09)
+
+
+### Bug Fixes
+
+* Remove GG Maps ([0d9358a](https://github.com/Zenoo/franckdemoute.fr/commit/0d9358a8fb121ded36831450333e800d43ca1dfa))
+
 ### [4.0.12](https://github.com/Zenoo/franckdemoute.fr/compare/v4.0.11...v4.0.12) (2020-10-09)
 
 
