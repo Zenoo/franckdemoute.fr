@@ -518,7 +518,7 @@
         /**
          * Maps loading
          */
-        const mapFrame = document.querySelector('#maps iframe');
+        const mapFrame = document.querySelector('#map iframe');
         mapFrame.src = mapFrame.dataset.src;
     });
 
