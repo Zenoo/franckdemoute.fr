@@ -522,6 +522,10 @@ p > video {
     top: -50%;
 }
 
+img.lazyload:not([src]) {
+	visibility: hidden;
+}
+
 /**
  * 2.4 - Icons
  */
