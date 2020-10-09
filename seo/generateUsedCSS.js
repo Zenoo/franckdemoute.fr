@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-let rawdata = fs.readFileSync('Coverage.json');
+let rawdata = fs.readFileSync('seo/Coverage.json');
 let json = JSON.parse(rawdata);
 
 
