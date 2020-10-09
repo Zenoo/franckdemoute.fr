@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.0.7](https://github.com/Zenoo/franckdemoute.fr/compare/v4.0.6...v4.0.7) (2020-10-09)
+
+
+### Bug Fixes
+
+* Removed grayscale ([a147155](https://github.com/Zenoo/franckdemoute.fr/commit/a147155f16f3d4c0f9efbe8e7626f1bcfd8a7fed))
+
 ### [4.0.6](https://github.com/Zenoo/franckdemoute.fr/compare/v4.0.5...v4.0.6) (2020-10-09)
 
 
