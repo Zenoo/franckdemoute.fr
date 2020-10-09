@@ -219,17 +219,6 @@
         return pattern.test(emailAddress);
     };
 
-    function setContactSectionHeight() {
-        var section = $('.section-contact .row');
-        var section_box = section.find('.section-box');
-
-        if (windowW > 767) {
-            section_box.css('min-height', section.height() + 'px');
-        } else {
-            section_box.css('min-height', '0');
-        }
-    }
-
     function ripple(element, pageX, pageY) {
         var $rippleElement = $('<span class="ripple-effect" />');
         var xPos = parseInt(pageX, 10) - parseInt(element.offset().left, 10);
@@ -263,7 +252,6 @@
 
         positioningInterestsTooltips();
         positioningTimelineElements();
-        setContactSectionHeight();
     });
 
 
@@ -273,7 +261,6 @@
     $(function () {
         setWindowScrollAppear();
         setProgressBarsFill();
-        setContactSectionHeight();
         positioningInterestsTooltips();
 
         // Header Navigation
@@ -514,12 +501,6 @@
                 }
             }
         });
-
-        /**
-         * Maps loading
-         */
-        const mapFrame = document.querySelector('#map iframe');
-        mapFrame.src = mapFrame.dataset.src;
     });
 
 

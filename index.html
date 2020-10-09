@@ -823,7 +823,7 @@
               </div>
 
               <div class="col-xs-12 col-sm-6">
-                <div class="section-box contact-info has-map">
+                <div class="section-box contact-info">
                   <ul class="contact-list">
                     <li class="clearfix">
                       <strong>Ville</strong>
@@ -838,13 +838,6 @@
                       <span><a href="mailto:pro@franckdemoute.fr">pro@franckdemoute.fr</a></span>
                     </li>
                   </ul>
-
-                  <div id="map">
-                    <iframe
-                      frameborder="0" style="border:0"
-                      data-src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCnGaWqD_3GJmIj-r1DYeneHDefa-S5NqU&q=la+rochelle&center=46.149276,-1.155681&zoom=6">
-                    </iframe>
-                  </div>
                 </div>
               </div>
             </div>
@@ -886,6 +879,13 @@
   <!-- Scripts -->
   <script src="js/plugins/lazysizes.min.js" async></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+  <script>
+    jQuery.event.special.touchstart = {
+        setup: function( _, ns, handle ){
+            this.addEventListener("touchstart", handle, { passive: true });
+        }
+    };
+  </script>
   <script src="js/plugins/jquery.mousewheel-3.0.6.pack.js"></script>
   <script src="js/plugins/imagesloaded.pkgd.min.js"></script>
   <script src="js/plugins/isotope.pkgd.min.js"></script>
