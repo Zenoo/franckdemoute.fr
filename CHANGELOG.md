@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.0.5](https://github.com/Zenoo/franckdemoute.fr/compare/v4.0.4...v4.0.5) (2020-10-09)
+
+
+### Bug Fixes
+
+* Minify CSS + only load critical at first ([275e712](https://github.com/Zenoo/franckdemoute.fr/commit/275e712328dbb350020509becc80f78d267da373))
+
 ### [4.0.4](https://github.com/Zenoo/franckdemoute.fr/compare/v4.0.3...v4.0.4) (2020-10-09)
 
 
