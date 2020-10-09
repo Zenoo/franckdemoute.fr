@@ -515,7 +515,11 @@
             }
         });
 
-
+        /**
+         * Maps loading
+         */
+        const mapFrame = document.querySelector('#maps iframe');
+        mapFrame.src = mapFrame.dataset.src;
     });
 
 
