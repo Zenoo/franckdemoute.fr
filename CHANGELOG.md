@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.0.4](https://github.com/Zenoo/franckdemoute.fr/compare/v4.0.3...v4.0.4) (2020-10-09)
+
+
+### Bug Fixes
+
+* added lazysizes module ([de91eea](https://github.com/Zenoo/franckdemoute.fr/commit/de91eeac48d6d673032f0d794a19cccb7e0e403e))
+
 ### [4.0.3](https://github.com/Zenoo/franckdemoute.fr/compare/v4.0.2...v4.0.3) (2020-10-09)
 
 
