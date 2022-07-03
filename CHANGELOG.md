@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.0.17](https://github.com/Zenoo/franckdemoute.fr/compare/v4.0.16...v4.0.17) (2022-07-03)
+
+
+### Bug Fixes
+
+* Update to GA4 ([0de0404](https://github.com/Zenoo/franckdemoute.fr/commit/0de0404bb07dba681583dcbc8d7963a7edbb89d2))
+
 ### [4.0.16](https://github.com/Zenoo/franckdemoute.fr/compare/v4.0.15...v4.0.16) (2020-10-09)
 
 
