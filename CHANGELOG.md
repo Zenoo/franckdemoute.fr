@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.0.19](https://github.com/Zenoo/franckdemoute.fr/compare/v4.0.18...v4.0.19) (2022-07-03)
+
+
+### Bug Fixes
+
+* Update FTP deploy target dir ([4e61143](https://github.com/Zenoo/franckdemoute.fr/commit/4e6114304341d8ed88cc35784760ae10f8ff8049))
+
 ### [4.0.18](https://github.com/Zenoo/franckdemoute.fr/compare/v4.0.17...v4.0.18) (2022-07-03)
 
 ### [4.0.17](https://github.com/Zenoo/franckdemoute.fr/compare/v4.0.16...v4.0.17) (2022-07-03)
