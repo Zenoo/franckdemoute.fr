@@ -536,7 +536,7 @@ p>video {
 }
 
 .clearfix {
-  *zoom: 1;
+  zoom: 1;
 }
 
 .hidden {
@@ -599,7 +599,6 @@ blockquote:before,
 .ref-box .person-speech:before,
 .widget_search .search-form:before {
   font-family: 'icomoon';
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -792,7 +791,7 @@ textarea {
 }
 
 .row {
-  *zoom: 1;
+  zoom: 1;
 }
 
 .col-xs-1,
@@ -3397,7 +3396,7 @@ body {
 
 .widget_archive ul li,
 .widget_categories ul li {
-  *zoom: 1;
+  zoom: 1;
 }
 
 .widget_archive ul li a,
@@ -3528,6 +3527,7 @@ body {
   margin: 0;
   border: 0;
   -webkit-appearance: none;
+  appearance: none;
 }
 
 .widget_search .search-submit {
@@ -4064,7 +4064,7 @@ body {
 }
 
 .grid {
-  *zoom: 1;
+  zoom: 1;
 }
 
 .grid .grid-item,
@@ -5091,7 +5091,7 @@ only screen and (min-device-pixel-ratio: 2) {
 }
 
 .calendar-busy .calendar-header {
-  *zoom: 1;
+  zoom: 1;
 }
 
 .calendar-busy .calendar-today {
@@ -5871,7 +5871,7 @@ only screen and (min-device-pixel-ratio: 2) {
 }
 
 .blog-grid {
-  *zoom: 1;
+  zoom: 1;
 }
 
 .blog-grid .grid-item,
@@ -6868,3 +6868,13 @@ only screen and (min-device-pixel-ratio: 2) {
 
 
 @media (max-width:620px) {}
+
+/* CUSTOM */
+.discord {
+  display: inline-flex;
+  align-items: center;
+}
+.discord-logo {
+  width: 20px;
+  margin-right: 5px;
+}
