@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.0.20](https://github.com/Zenoo/franckdemoute.fr/compare/v4.0.19...v4.0.20) (2023-11-17)
+
+
+### Bug Fixes
+
+* Update data ([9b2facc](https://github.com/Zenoo/franckdemoute.fr/commit/9b2faccdb1fcd4791053ccba4ff994150601f8b8))
+
 ### [4.0.19](https://github.com/Zenoo/franckdemoute.fr/compare/v4.0.18...v4.0.19) (2022-07-03)
 
 
