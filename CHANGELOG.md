@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.0.21](https://github.com/Zenoo/franckdemoute.fr/compare/v4.0.20...v4.0.21) (2024-01-17)
+
+
+### Bug Fixes
+
+* Change spotify to YT music ([2f5207a](https://github.com/Zenoo/franckdemoute.fr/commit/2f5207a09c6204716a2bafcfae82174dca1009a0))
+* Update deploy script ([5fbdc51](https://github.com/Zenoo/franckdemoute.fr/commit/5fbdc513f34fe6abfc24ecf7c6444d39b3519d19))
+
 ### [4.0.20](https://github.com/Zenoo/franckdemoute.fr/compare/v4.0.19...v4.0.20) (2023-11-17)
 
 
