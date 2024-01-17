@@ -3,9 +3,6 @@
   "version": "4.0.20",
   "description": "",
   "main": "index.html",
-  "directories": {
-    "doc": "docs"
-  },
   "scripts": {
     "release": "standard-version -s"
   },
