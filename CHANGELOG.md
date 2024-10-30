@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.0.22](https://github.com/Zenoo/franckdemoute.fr/compare/v4.0.21...v4.0.22) (2024-10-30)
+
+
+### Bug Fixes
+
+* Auto update age ([419b2e1](https://github.com/Zenoo/franckdemoute.fr/commit/419b2e16090d0e96fbf77ac118d55d64471d854f))
+
 ### [4.0.21](https://github.com/Zenoo/franckdemoute.fr/compare/v4.0.20...v4.0.21) (2024-01-17)
 
 
