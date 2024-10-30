@@ -1,5 +1,9 @@
 on:
   workflow_dispatch:
+  workflow_run:
+    workflows: ["Update Age Annually"]
+    types:
+      - completed
   push:
     branches:
       - master
