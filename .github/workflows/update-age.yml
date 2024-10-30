@@ -1,6 +1,7 @@
 name: Update Age Annually
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: '0 0 13 3 *'  # Runs at midnight on march 13th every year
 
