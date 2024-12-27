@@ -1,10 +1,14 @@
 {
   "name": "franckdemoute.fr",
   "version": "4.0.22",
-  "description": "",
-  "main": "index.html",
+  "description": "Portfolio of Franck Demoute",
+  "private": true,
   "scripts": {
-    "release": "standard-version -s"
+    "preinstall": "npx only-allow pnpm",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "repository": {
     "type": "git",
@@ -16,47 +20,30 @@
     "url": "https://github.com/Zenoo/franckdemoute.fr/issues"
   },
   "homepage": "https://github.com/Zenoo/franckdemoute.fr#readme",
-  "devDependencies": {
-    "standard-version": "^9.0.0"
+  "dependencies": {
+    "@emailjs/browser": "^4.3.1",
+    "@next/third-parties": "15.1.1",
+    "axios": "^1.6.8",
+    "lottie-react": "^2.4.0",
+    "next": "15.1.1",
+    "nodemailer": "^6.9.15",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-fast-marquee": "^1.6.2",
+    "react-google-recaptcha": "^3.1.0",
+    "react-icons": "^4.11.0",
+    "react-toastify": "^10.0.4",
+    "sharp": "^0.33.5"
   },
-  "standard-version": {
-    "types": [
-      {
-        "type": "feat",
-        "section": "Features"
-      },
-      {
-        "type": "fix",
-        "section": "Bug Fixes"
-      },
-      {
-        "type": "chore",
-        "hidden": true
-      },
-      {
-        "type": "docs",
-        "section": "Documentation"
-      },
-      {
-        "type": "style",
-        "section": "Visual updates"
-      },
-      {
-        "type": "refactor",
-        "section": "Refactoring"
-      },
-      {
-        "type": "perf",
-        "section": "Performance"
-      },
-      {
-        "type": "progress",
-        "section": "Progress"
-      },
-      {
-        "type": "test",
-        "section": "Tests"
-      }
-    ]
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/nodemailer": "^6.4.17",
+    "@types/react": "^19.0.2",
+    "autoprefixer": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "15.1.1",
+    "postcss": "latest",
+    "sass": "^1.69.5",
+    "tailwindcss": "latest"
   }
 }
