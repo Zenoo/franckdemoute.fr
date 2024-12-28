@@ -1,10 +1,9 @@
 // @flow strict
 
-import { Project } from '@/utils/data/projects-data';
-import * as React from 'react';
+import { Project } from "@/utils/data/projects-data";
+import * as React from "react";
 
 function ProjectCard({ project }: { project: Project }) {
-
   return (
     <div className="from-[#0d1224] border-[#1b2c68a0] relative rounded-lg border bg-gradient-to-r to-[#0a0d37] w-full">
       <div className="flex flex-row">
@@ -27,7 +26,7 @@ function ProjectCard({ project }: { project: Project }) {
             <span className="mr-2 text-pink-500">const</span>
             <span className="mr-2 text-white">project</span>
             <span className="mr-2 text-pink-500">=</span>
-            <span className="text-gray-400">{'{'}</span>
+            <span className="text-gray-400">{"{"}</span>
           </div>
           <div>
             <span className="ml-4 lg:ml-8 mr-2 text-white">name:</span>
@@ -39,17 +38,14 @@ function ProjectCard({ project }: { project: Project }) {
           <div className="ml-4 lg:ml-8 mr-2">
             <span className=" text-white">tools:</span>
             <span className="text-gray-400">{` ['`}</span>
-            {
-              project.tools.map((tag, i) => (
-                <React.Fragment key={i}>
-                  <span className="text-amber-300">{tag}</span>
-                  {
-                    project.tools?.length - 1 !== i &&
-                    <span className="text-gray-400">{`', '`}</span>
-                  }
-                </React.Fragment>
-              ))
-            }
+            {project.tools.map((tag, i) => (
+              <React.Fragment key={i}>
+                <span className="text-amber-300">{tag}</span>
+                {project.tools?.length - 1 !== i && (
+                  <span className="text-gray-400">{`', '`}</span>
+                )}
+              </React.Fragment>
+            ))}
             <span className="text-gray-400">{"],"}</span>
           </div>
           <div>
@@ -62,15 +58,41 @@ function ProjectCard({ project }: { project: Project }) {
           <div className="ml-4 lg:ml-8 mr-2">
             <span className="text-white mr-2">description:</span>
             <span className="text-gray-400">{`'`}</span>
-            <span className="text-cyan-400">{' ' + project.description}</span>
+            <span className="text-cyan-400">{project.description}</span>
             <span className="text-gray-400">{`'`}</span>
             <span className="text-gray-400">,</span>
           </div>
-          <div><span className="text-gray-400">{`};`}</span></div>
+          <div>
+            <span className="ml-4 lg:ml-8 mr-2 text-white">link:</span>
+            <span className="text-gray-400">{`'`}</span>
+            <a href={project.link} target="_blank" className="text-purple-400">
+              {project.link}
+            </a>
+            <span className="text-gray-400">{`'`}</span>
+            <span className="text-gray-400">,</span>
+          </div>
+          {project.source && (
+            <div>
+              <span className="ml-4 lg:ml-8 mr-2 text-white">source:</span>
+              <span className="text-gray-400">{`'`}</span>
+              <a
+                href={project.source}
+                target="_blank"
+                className="text-purple-400"
+              >
+                {project.source}
+              </a>
+              <span className="text-gray-400">{`'`}</span>
+              <span className="text-gray-400">,</span>
+            </div>
+          )}
+          <div>
+            <span className="text-gray-400">{`};`}</span>
+          </div>
         </code>
       </div>
     </div>
   );
-};
+}
 
 export default ProjectCard;
