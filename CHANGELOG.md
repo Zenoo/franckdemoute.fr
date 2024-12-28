@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.1.1](https://github.com/Zenoo/franckdemoute.fr/compare/franckdemoute.fr-v5.1.0...franckdemoute.fr-v5.1.1) (2024-12-28)
+
+
+### Bug Fixes
+
+* robots.txt + sitemap ([d4d978a](https://github.com/Zenoo/franckdemoute.fr/commit/d4d978abe15a75a5b71cf3ff50201e7d68e7bfbd))
+* SEO fixes ([64f1eb2](https://github.com/Zenoo/franckdemoute.fr/commit/64f1eb20c13a83a4a2d7a607aadbd5ff7cba8155))
+
 ## [5.1.0](https://github.com/Zenoo/franckdemoute.fr/compare/franckdemoute.fr-v5.0.8...franckdemoute.fr-v5.1.0) (2024-12-28)
 
 
