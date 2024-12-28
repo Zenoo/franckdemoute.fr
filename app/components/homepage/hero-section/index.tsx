@@ -101,6 +101,7 @@ function HeroSection() {
               role="button"
               target="_blank"
               href={personalData.resume}
+              prefetch={false}
             >
               <span>Get Resume</span>
               <MdDownload size={16} />

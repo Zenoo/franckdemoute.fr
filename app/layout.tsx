@@ -1,5 +1,7 @@
 import { personalData } from "@/utils/data/personal-data";
 import { GoogleTagManager } from "@next/third-parties/google";
+import { SpeedInsights } from '@vercel/speed-insights/next';
+import { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -8,7 +10,6 @@ import ScrollToTop from "./components/helper/scroll-to-top";
 import Navbar from "./components/navbar";
 import "./css/card.scss";
 import "./css/globals.scss";
-import { Metadata } from "next";
 const inter = Inter({ subsets: ["latin"] });
 
 const data = {
@@ -58,6 +59,7 @@ export default function RootLayout({
         <Footer />
       </body>
       <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM ?? ""} />
+      <SpeedInsights />
     </html>
   );
 }
