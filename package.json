@@ -1,6 +1,6 @@
 {
   "name": "franckdemoute.fr",
-  "version": "5.0.8",
+  "version": "5.1.0",
   "description": "Portfolio of Franck Demoute",
   "packageManager": "pnpm@9.15.1",
   "private": true,
