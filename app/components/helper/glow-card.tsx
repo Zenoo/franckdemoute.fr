@@ -7,6 +7,8 @@ const GlowCard = ({ children, identifier }: {
   identifier: string;
 }) => {
   useEffect(() => {
+    if (!document) return () => {};
+
     const CONTAINER = document.querySelector<HTMLDivElement>(`.glow-container-${identifier}`);
     const CARDS = document.querySelectorAll<HTMLDivElement>(`.glow-card-${identifier}`);
 
