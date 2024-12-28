@@ -2,6 +2,71 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.0.0](https://github.com/Zenoo/franckdemoute.fr/compare/franckdemoute.fr-v4.0.22...franckdemoute.fr-v5.0.0) (2024-12-28)
+
+
+### ⚠ BREAKING CHANGES
+
+* V5 rework (missing projects data)
+* New template import
+
+### Features
+
+* Added Favicons + Socials ([d4c0ea6](https://github.com/Zenoo/franckdemoute.fr/commit/d4c0ea63a78b07ddf7a55f622270497c7827c2fe))
+* enabled recaptcha ([e5cac7c](https://github.com/Zenoo/franckdemoute.fr/commit/e5cac7c033bbd713bfd52aee925e4a2551e7c91c))
+* End of current content ([c52d299](https://github.com/Zenoo/franckdemoute.fr/commit/c52d29930c1e36b665745d8d7f738180cf2840dc))
+* New template import ([7790dda](https://github.com/Zenoo/franckdemoute.fr/commit/7790dda2e345c08558da03d0cc424e88141c6b95))
+* Setup automatic deployment on release ([bcb193b](https://github.com/Zenoo/franckdemoute.fr/commit/bcb193bc2764e26f84cd07abe73b22e10d6418a6))
+* V5 rework (missing projects data) ([7846e30](https://github.com/Zenoo/franckdemoute.fr/commit/7846e30312ba95a04f09cda1df6cc66fd63853c8))
+
+
+### Bug Fixes
+
+* Add version ([a9552fb](https://github.com/Zenoo/franckdemoute.fr/commit/a9552fbc35e0a2c38124b7e784d83f6ea8bd3ac3))
+* Added /v3 in NOFOLLOW ([cdf0a90](https://github.com/Zenoo/franckdemoute.fr/commit/cdf0a903b4830d8598ee3895ecb44a63a5acfd6f))
+* added lazysizes module ([de91eea](https://github.com/Zenoo/franckdemoute.fr/commit/de91eeac48d6d673032f0d794a19cccb7e0e403e))
+* Added recaptcha secrets ([c575200](https://github.com/Zenoo/franckdemoute.fr/commit/c5752005c9b9dcbe166f584d8a8001f0c2baf239))
+* Added release script ([e90acc2](https://github.com/Zenoo/franckdemoute.fr/commit/e90acc2dd9c511cbcd763328f5ba88c5dade742e))
+* Added Structured Data ([944b705](https://github.com/Zenoo/franckdemoute.fr/commit/944b7050c7ad5fabe12f9740db3bbd178eb1a593))
+* added swap to icomoon ([82dc6ee](https://github.com/Zenoo/franckdemoute.fr/commit/82dc6ee82ff6f57e602ed20aedd6f5368524f654))
+* Added Webp sources + compressed images ([8927b89](https://github.com/Zenoo/franckdemoute.fr/commit/8927b8976298a6cb1a53ae44ad9a1a9a5a2b688b))
+* Allow manual workflow dispatch ([5e91568](https://github.com/Zenoo/franckdemoute.fr/commit/5e9156897f89716cb9054aa0f6f669e6ca0ab00a))
+* Auto update age ([419b2e1](https://github.com/Zenoo/franckdemoute.fr/commit/419b2e16090d0e96fbf77ac118d55d64471d854f))
+* Change spotify to YT music ([2f5207a](https://github.com/Zenoo/franckdemoute.fr/commit/2f5207a09c6204716a2bafcfae82174dca1009a0))
+* Cleanup JS + Colors & BG change ([299b1d8](https://github.com/Zenoo/franckdemoute.fr/commit/299b1d8add4ee9d814cf9477ae7e9be0edb02978))
+* Cleanup unused files ([87c5edc](https://github.com/Zenoo/franckdemoute.fr/commit/87c5edce41f1457cc2dfc6c890412de1938e31e3))
+* Cleanup unused images ([fde34b0](https://github.com/Zenoo/franckdemoute.fr/commit/fde34b0542d04e9f2bca26d015b07174f3a0eaf7))
+* Clickable contacts ([076d3b5](https://github.com/Zenoo/franckdemoute.fr/commit/076d3b54521e9105c7d356f4f581fa3acac00f92))
+* Delay map load until page load ([cb81c0a](https://github.com/Zenoo/franckdemoute.fr/commit/cb81c0ace4b384045c05caca2a7fe6bd4da5e4b1))
+* Deploy on any push ([74eddcf](https://github.com/Zenoo/franckdemoute.fr/commit/74eddcfe6e0aecf7647773ddac64474b50e002c0))
+* Improve cache ([5d917cf](https://github.com/Zenoo/franckdemoute.fr/commit/5d917cfa9c9394c3dd6ab7268c757aee522aa07b))
+* Minify CSS + only load critical at first ([275e712](https://github.com/Zenoo/franckdemoute.fr/commit/275e712328dbb350020509becc80f78d267da373))
+* Missing quote in structured data ([d71692a](https://github.com/Zenoo/franckdemoute.fr/commit/d71692ae050e75d08ed397d30072158259377aa5))
+* Missing release-please manifest ([98bfbd2](https://github.com/Zenoo/franckdemoute.fr/commit/98bfbd2701e478034f1fb79866fa41703d3bc04b))
+* mobile style ([7306362](https://github.com/Zenoo/franckdemoute.fr/commit/73063626773d2a143d1017b4db42ad1a84a8fde9))
+* Remove GG Maps ([0d9358a](https://github.com/Zenoo/franckdemoute.fr/commit/0d9358a8fb121ded36831450333e800d43ca1dfa))
+* remove Modernizr ([5f4b587](https://github.com/Zenoo/franckdemoute.fr/commit/5f4b587a03d19886f873ec66643f451ab3e264a5))
+* Remove recaptcha ([e44f814](https://github.com/Zenoo/franckdemoute.fr/commit/e44f81448ea71b04e9aed94fc8225e23c4e2ccdd))
+* Remove unused files ([228a38f](https://github.com/Zenoo/franckdemoute.fr/commit/228a38f09b2ea30e8cd6f88df8870c6bdbfba419))
+* Remove unused fonts ([14ad009](https://github.com/Zenoo/franckdemoute.fr/commit/14ad009c25afcc00784f1f8884454c02e22e9b6d))
+* Removed grayscale ([a147155](https://github.com/Zenoo/franckdemoute.fr/commit/a147155f16f3d4c0f9efbe8e7626f1bcfd8a7fed))
+* Removed unused JS ([2d38161](https://github.com/Zenoo/franckdemoute.fr/commit/2d3816183a083d284e3d5a44405607b00efad610))
+* Run deploy workflow after age update ([fc64908](https://github.com/Zenoo/franckdemoute.fr/commit/fc64908fcce9a977eacdca8432c77757d1dc39b6))
+* translate english confirmation messages ([33d0b29](https://github.com/Zenoo/franckdemoute.fr/commit/33d0b2936291c5e05c8392f38e10062bfee13206))
+* typo ([46435ce](https://github.com/Zenoo/franckdemoute.fr/commit/46435ce5424e575f0670d4022ad8a0454ff7d0fd))
+* Update data ([9b2facc](https://github.com/Zenoo/franckdemoute.fr/commit/9b2faccdb1fcd4791053ccba4ff994150601f8b8))
+* Update deploy script ([5fbdc51](https://github.com/Zenoo/franckdemoute.fr/commit/5fbdc513f34fe6abfc24ecf7c6444d39b3519d19))
+* Update FTP deploy target dir ([4e61143](https://github.com/Zenoo/franckdemoute.fr/commit/4e6114304341d8ed88cc35784760ae10f8ff8049))
+* Update google font link ([598a1c8](https://github.com/Zenoo/franckdemoute.fr/commit/598a1c8101d1337d7bf27beeabfdcc17619c61b2))
+* Update google maps to embed ([192c228](https://github.com/Zenoo/franckdemoute.fr/commit/192c2283dc3fda65560ed1580311c6d2d13697e2))
+* Update status ([4a761ee](https://github.com/Zenoo/franckdemoute.fr/commit/4a761ee7357fe2dfb32e3359a0538778bdb96213))
+* Update to GA4 ([0de0404](https://github.com/Zenoo/franckdemoute.fr/commit/0de0404bb07dba681583dcbc8d7963a7edbb89d2))
+* Use &lt;picture&gt; tags ([2efc9de](https://github.com/Zenoo/franckdemoute.fr/commit/2efc9dee63de2975e78f908465d437de07c0bfb1))
+* Workflow branch typo ([8dfffe4](https://github.com/Zenoo/franckdemoute.fr/commit/8dfffe4264cd942281a23a2d683a24a41d61db94))
+* Working contact form ([7cac315](https://github.com/Zenoo/franckdemoute.fr/commit/7cac315d37676a55d868d0699816ef1f3aeb6235))
+* Working ESLint config ([d3295d6](https://github.com/Zenoo/franckdemoute.fr/commit/d3295d6a6309578786628d5d02d30e4f648c6f90))
+* Wrong branch ([71e1909](https://github.com/Zenoo/franckdemoute.fr/commit/71e190967caea89c68716c4dbfc8f4f7086ebba4))
+
 ### [4.0.22](https://github.com/Zenoo/franckdemoute.fr/compare/v4.0.21...v4.0.22) (2024-10-30)
 
 
