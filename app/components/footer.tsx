@@ -11,7 +11,7 @@ function Footer() {
         </div>
         <div className="flex flex-col md:flex-row items-center justify-between">
           <p className="text-sm">
-            v{Version} by <Link target="_blank" href="https://github.com/Zenoo" className="text-[#16f2b3]">Zen</Link>
+            v{Version} by <Link target="_blank" href="https://github.com/Zenoo" className="text-[#16f2b3] font-bold">Zen</Link>
           </p>
         </div>
       </div>

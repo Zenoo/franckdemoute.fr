@@ -2,7 +2,7 @@
   "name": "franckdemoute.fr",
   "version": "5.1.0",
   "description": "Portfolio of Franck Demoute",
-  "packageManager": "pnpm@9.15.1",
+  "packageManager": "pnpm@9.15.2",
   "private": true,
   "scripts": {
     "preinstall": "npx only-allow pnpm",
@@ -33,7 +33,9 @@
     "react-fast-marquee": "^1.6.2",
     "react-google-recaptcha": "^3.1.0",
     "react-icons": "^4.11.0",
+    "react-schemaorg": "^2.0.0",
     "react-toastify": "^10.0.4",
+    "schema-dts": "^1.1.2",
     "sharp": "^0.33.5"
   },
   "devDependencies": {

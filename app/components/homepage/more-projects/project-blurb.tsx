@@ -19,9 +19,9 @@ function ProjectBlurb({ project }: { project: Project }) {
           height={200}
           className="absolute bottom-0 opacity-80"
         />
-        <p className="text-base sm:text-xl mb-2 font-medium">
+        <h3 className="text-base sm:text-xl mb-2 font-medium">
           {project.name}
-        </p>
+        </h3>
         <p className="text-xs sm:text-sm">{project.description}</p>
       </Link>
     </GlowCard>

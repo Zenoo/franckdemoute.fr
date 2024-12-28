@@ -8,15 +8,42 @@ import ScrollToTop from "./components/helper/scroll-to-top";
 import Navbar from "./components/navbar";
 import "./css/card.scss";
 import "./css/globals.scss";
+import { Metadata } from "next";
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
+const data = {
   title: `Portfolio of ${personalData.name} - Full-Stack Developer`,
   description:
-    'Full-Stack Developer in La Rochelle. Back/Front Typescript specialist. HTML5 / CSS3 / ES2020 / NodeJS / Java',
+    "Full-Stack Developer in La Rochelle. Typescript enthusiast, both Front End & Back End. Here to leave a part of me in the development community when I'm gone.",
+  url: "https://franckdemoute.fr",
 };
 
-export default function RootLayout({ children }: {
+export const metadata: Metadata = {
+  title: data.title,
+  description: data.description,
+  alternates: {
+    canonical: data.url,
+  },
+  openGraph: {
+    title: data.title,
+    description: data.description,
+    url: data.url,
+    siteName: data.title,
+    type: "website",
+    images: [
+      {
+        url: "https://franckdemoute.fr/opengraph-image.jpg",
+        width: 2536,
+        height: 1021,
+        alt: "Franck Demoute, Full-Stack Developer",
+      },
+    ]
+  },
+};
+
+export default function RootLayout({
+  children,
+}: {
   children: React.ReactNode;
 }) {
   return (
@@ -30,7 +57,7 @@ export default function RootLayout({ children }: {
         </main>
         <Footer />
       </body>
-      <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM ?? ''} />
+      <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM ?? ""} />
     </html>
   );
 }

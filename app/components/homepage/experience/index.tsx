@@ -32,13 +32,13 @@ export const Experience = (_props: ExperienceProps) => {
       />
 
       <div className="flex justify-center my-5 lg:py-8">
-        <div className="flex  items-center">
+        <h2 className="flex  items-center">
           <span className="w-24 h-[2px] bg-[#1a1443]"></span>
           <span className="bg-[#1a1443] w-fit text-white p-2 px-5 text-xl rounded-md">
             Experiences
           </span>
           <span className="w-24 h-[2px] bg-[#1a1443]"></span>
-        </div>
+        </h2>
       </div>
 
       <div className="py-8">
@@ -74,9 +74,9 @@ export const Experience = (_props: ExperienceProps) => {
                         <BsPersonWorkspace size={36} />
                       </div>
                       <div>
-                        <p className="text-base sm:text-xl mb-2 font-medium uppercase">
+                        <h3 className="text-base sm:text-xl mb-2 font-medium uppercase">
                           {experience.title}
-                        </p>
+                        </h3>
                         <p className="text-sm sm:text-base">
                           {experience.company}
                         </p>

@@ -17,13 +17,13 @@ function Skills() {
       </div>
 
       <div className="flex justify-center my-5 lg:py-8">
-        <div className="flex  items-center">
+        <h2 className="flex  items-center">
           <span className="w-24 h-[2px] bg-[#1a1443]"></span>
           <span className="bg-[#1a1443] w-fit text-white p-2 px-5 text-xl rounded-md">
             Skills
           </span>
           <span className="w-24 h-[2px] bg-[#1a1443]"></span>
-        </div>
+        </h2>
       </div>
 
       <div className="w-full my-12">
@@ -55,9 +55,9 @@ function Skills() {
                       className="h-full w-auto rounded-lg"
                     />
                   </div>
-                  <p className="text-white text-sm sm:text-lg">
+                  <h3 className="text-white text-sm sm:text-lg">
                     {skill}
-                  </p>
+                  </h3>
                 </div>
               </div>
             </div>
