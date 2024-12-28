@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.0.7](https://github.com/Zenoo/franckdemoute.fr/compare/franckdemoute.fr-v5.0.6...franckdemoute.fr-v5.0.7) (2024-12-28)
+
+
+### Bug Fixes
+
+* Vercel deployment issue ([1e48daa](https://github.com/Zenoo/franckdemoute.fr/commit/1e48daaabb6b2c92faa8b56004e927fc7b47793a))
+
 ## [5.0.6](https://github.com/Zenoo/franckdemoute.fr/compare/franckdemoute.fr-v5.0.5...franckdemoute.fr-v5.0.6) (2024-12-28)
 
 
