@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.0.2](https://github.com/Zenoo/franckdemoute.fr/compare/franckdemoute.fr-v5.0.1...franckdemoute.fr-v5.0.2) (2024-12-28)
+
+
+### Bug Fixes
+
+* Remove useless env vars + deploy on tag publications ([0cd8ea8](https://github.com/Zenoo/franckdemoute.fr/commit/0cd8ea8f84bcc4eb109f41ae42895800879d922f))
+
 ## [5.0.1](https://github.com/Zenoo/franckdemoute.fr/compare/franckdemoute.fr-v5.0.0...franckdemoute.fr-v5.0.1) (2024-12-28)
 
 
