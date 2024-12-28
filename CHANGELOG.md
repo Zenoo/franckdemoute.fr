@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.1.3](https://github.com/Zenoo/franckdemoute.fr/compare/franckdemoute.fr-v5.1.2...franckdemoute.fr-v5.1.3) (2024-12-28)
+
+
+### Bug Fixes
+
+* Add Vercel PageSpeed ([f4e1243](https://github.com/Zenoo/franckdemoute.fr/commit/f4e1243170db11f4ce667178f191947b678dae99))
+* Hydration warning ([16d61de](https://github.com/Zenoo/franckdemoute.fr/commit/16d61dee049fe4e6e5ee1c0dce4021f0e7ebfe9b))
+
 ## [5.1.2](https://github.com/Zenoo/franckdemoute.fr/compare/franckdemoute.fr-v5.1.1...franckdemoute.fr-v5.1.2) (2024-12-28)
 
 
