@@ -1,3 +1,4 @@
+import { personalData } from "@/utils/data/personal-data";
 import { GoogleTagManager } from "@next/third-parties/google";
 import { Inter } from "next/font/google";
 import { ToastContainer } from "react-toastify";
@@ -7,7 +8,6 @@ import ScrollToTop from "./components/helper/scroll-to-top";
 import Navbar from "./components/navbar";
 import "./css/card.scss";
 import "./css/globals.scss";
-import { personalData } from "@/utils/data/personal-data";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {

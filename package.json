@@ -36,6 +36,7 @@
     "sharp": "^0.33.5"
   },
   "devDependencies": {
+    "@eslint/compat": "^1.2.4",
     "@types/node": "^22.10.2",
     "@types/nodemailer": "^6.4.17",
     "@types/react": "^19.0.2",
