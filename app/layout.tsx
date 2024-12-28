@@ -14,7 +14,7 @@ const inter = Inter({ subsets: ["latin"] });
 const data = {
   title: `Portfolio of ${personalData.name} - Full-Stack Developer`,
   description:
-    "Full-Stack Developer in La Rochelle. Typescript enthusiast, both Front End & Back End. Here to leave a part of me in the development community when I'm gone.",
+    "Full-Stack Developer in La Rochelle. Typescript enthusiast, both Front End & Back End. Here to leave a part of me in the development community.",
   url: "https://franckdemoute.fr",
 };
 
