@@ -14,7 +14,7 @@ import Skills from "./components/homepage/skills";
 
 export default function Home() {
   return (
-    <div suppressHydrationWarning>
+    <div>
       <HeroSection />
       <AboutSection />
       <MoreSection />
