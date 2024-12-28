@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.0.1](https://github.com/Zenoo/franckdemoute.fr/compare/franckdemoute.fr-v5.0.0...franckdemoute.fr-v5.0.1) (2024-12-28)
+
+
+### Bug Fixes
+
+* Dynamic lottie imports ([626e3c0](https://github.com/Zenoo/franckdemoute.fr/commit/626e3c0fff1a096c81935d4e073e8df5eabc1928))
+* lint errors ([7e565f2](https://github.com/Zenoo/franckdemoute.fr/commit/7e565f277d723b1ca6bc26077cc667fba9c93f3b))
+* Projects ([e02473d](https://github.com/Zenoo/franckdemoute.fr/commit/e02473dbc3f2cdad979b7feb385ad41b1fb6e9b2))
+* Vercel build error ([af49284](https://github.com/Zenoo/franckdemoute.fr/commit/af4928483248e9df82b7bab32899012c8b8795a6))
+
 ## [5.0.0](https://github.com/Zenoo/franckdemoute.fr/compare/franckdemoute.fr-v4.0.22...franckdemoute.fr-v5.0.0) (2024-12-28)
 
 
