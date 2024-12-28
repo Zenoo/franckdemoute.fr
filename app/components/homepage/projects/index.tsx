@@ -17,10 +17,10 @@ const Projects = () => {
 
       <div className="pt-24">
         <div className="flex flex-col gap-6">
-          {projectsData.map((project, index) => (
+          {projectsData.slice(0, 3).map((project) => (
             <div
-              id={`sticky-card-${index + 1}`}
-              key={index}
+              id={`sticky-card-${project.name.replace(/\s/g, "-")}`}
+              key={project.name}
               className="sticky-card w-full mx-auto max-w-2xl sticky"
             >
               <div className="box-border flex items-center justify-center rounded shadow-[0_0_30px_0_rgba(0,0,0,0.3)] transition-all duration-[0.5s]">

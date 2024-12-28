@@ -21,7 +21,7 @@ export const Education = (_props: EducationProps) => {
     <div id="education" className="relative z-50 border-t mt-12 lg:mt-24 border-[#25213b]">
       <Image
         src="/section.svg"
-        alt="Hero"
+        alt="Blur"
         width={1572}
         height={795}
         className="absolute top-0 -z-10"
