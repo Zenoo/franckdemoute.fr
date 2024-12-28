@@ -1,7 +1,6 @@
 // @flow strict
+import Version from '@/utils/Version';
 import Link from 'next/link';
-import { CgGitFork } from "react-icons/cg";
-import { IoStar } from "react-icons/io5";
 
 function Footer() {
   return (
@@ -12,7 +11,7 @@ function Footer() {
         </div>
         <div className="flex flex-col md:flex-row items-center justify-between">
           <p className="text-sm">
-            © by <Link target="_blank" href="https://github.com/Zenoo" className="text-[#16f2b3]">Zen</Link>
+            v{Version} by <Link target="_blank" href="https://github.com/Zenoo" className="text-[#16f2b3]">Zen</Link>
           </p>
         </div>
       </div>

@@ -2,32 +2,7 @@
   "packages": {
     ".": {
       "extra-files": [
-        "core/src/Version.ts",
-        {
-          "type": "json",
-          "path": "client/package.json",
-          "jsonpath": "$.version"
-        },
-        {
-          "type": "json",
-          "path": "core/package.json",
-          "jsonpath": "$.version"
-        },
-        {
-          "type": "json",
-          "path": "prisma/package.json",
-          "jsonpath": "$.version"
-        },
-        {
-          "type": "json",
-          "path": "prisma/package.reference.json",
-          "jsonpath": "$.version"
-        },
-        {
-          "type": "json",
-          "path": "server/package.json",
-          "jsonpath": "$.version"
-        }
+        "utils/Version.ts"
       ]
     }
   }
