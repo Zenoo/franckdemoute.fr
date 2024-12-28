@@ -2,9 +2,11 @@
 
 import Lottie from "lottie-react";
 
-const AnimationLottie = ({ animationPath }: {
+export interface AnimationLottieProps {
   animationPath: Record<string, unknown>;
-}) => {
+};
+
+export const AnimationLottie = ({ animationPath }: AnimationLottieProps) => {
   const defaultOptions = {
     loop: true,
     autoplay: true,
@@ -18,5 +20,3 @@ const AnimationLottie = ({ animationPath }: {
     <Lottie {...defaultOptions} />
   );
 };
-
-export default AnimationLottie;

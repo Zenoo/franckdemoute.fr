@@ -3,10 +3,20 @@ import { educations } from "@/utils/data/educations";
 import Image from "next/image";
 import { BsPersonWorkspace } from "react-icons/bs";
 import lottieFile from '../../../assets/lottie/study.json';
-import AnimationLottie from "../../helper/animation-lottie";
 import GlowCard from "../../helper/glow-card";
+import dynamic from "next/dynamic";
+import { AnimationLottieProps } from "../../helper/animation-lottie";
+const AnimationLottie = dynamic<AnimationLottieProps>(
+  () =>
+    import("../../helper/animation-lottie").then((mod) => mod.AnimationLottie),
+  { ssr: false },
+);
 
-function Education() {
+export interface EducationProps {
+  children?: never;
+};
+
+export const Education = (_props: EducationProps) => {
   return (
     <div id="education" className="relative z-50 border-t mt-12 lg:mt-24 border-[#25213b]">
       <Image
@@ -80,5 +90,3 @@ function Education() {
     </div>
   );
 };
-
-export default Education;
