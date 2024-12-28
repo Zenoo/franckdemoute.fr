@@ -31,5 +31,5 @@ export const personalData = {
   stackOverflow: 'https://stackoverflow.com/users/3660134/zenoo',
   instagram: 'https://www.instagram.com/climbingfranck/',
   devUsername: "Zen",
-  resume: ""
+  resume: "resume.pdf"
 } as const;
