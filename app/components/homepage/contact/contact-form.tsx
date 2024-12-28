@@ -36,7 +36,7 @@ function ContactForm() {
 
     try {
       setIsLoading(true);
-      const res = await axios.post(
+      await axios.post(
         `${process.env.NEXT_PUBLIC_APP_URL}/api/contact`,
         userInput
       );
@@ -63,7 +63,7 @@ function ContactForm() {
       <p className="font-medium my-5 text-[#16f2b3] text-xl uppercase">Contact me</p>
       <div className="max-w-3xl text-white rounded-lg border border-[#464c6a] p-3 lg:p-5">
         <p className="text-sm text-[#d3d8e8]">
-          If you have any questions or concerns, please don't hesitate to contact me.
+          If you have any questions or concerns, please don&apos;t hesitate to contact me.
           I will get back to you as soon as possible.
         </p>
         <div className="mt-6 flex flex-col gap-4">

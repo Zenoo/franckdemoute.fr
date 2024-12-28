@@ -1,7 +1,7 @@
 // @flow strict
 
 import { personalData } from "@/utils/data/personal-data";
-import { highlighedSkills, skills } from "@/utils/data/skills";
+import { highlighedSkills } from "@/utils/data/skills";
 import Image from "next/image";
 import Link from "next/link";
 import { Fragment } from "react";

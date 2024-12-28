@@ -20,7 +20,7 @@ export async function POST(request: Request) {
       error: "Captcha verification failed!",
       success: false,
     }, { status: 500 });
-  } catch (error) {
+  } catch (_error) {
     return NextResponse.json({
       error: "Captcha verification failed!",
       success: false,
