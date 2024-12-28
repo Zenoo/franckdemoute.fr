@@ -11,7 +11,7 @@ import { personalData } from "@/utils/data/personal-data";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: `Portfolio of ${personalData.name} - Software Developer`,
+  title: `Portfolio of ${personalData.name} - Full-Stack Developer`,
   description:
     'Full-Stack Developer in La Rochelle. Back/Front Typescript specialist. HTML5 / CSS3 / ES2020 / NodeJS / Java',
 };

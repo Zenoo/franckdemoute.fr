@@ -4,13 +4,12 @@ import nodemailer from "nodemailer";
 
 // Create and configure Nodemailer transporter
 const transporter = nodemailer.createTransport({
-  service: "gmail",
-  host: "smtp.gmail.com",
-  port: 587,
-  secure: false,
+  host: process.env.EMAIL_HOST,
+  port: process.env.EMAIL_PORT ? +process.env.EMAIL_PORT : 465,
+  secure: true,
   auth: {
     user: process.env.EMAIL_ADDRESS,
-    pass: process.env.GMAIL_PASSKEY,
+    pass: process.env.EMAIL_PASSWORD,
   },
 });
 
@@ -27,7 +26,7 @@ const generateEmailTemplate = (
       <p><strong>Email:</strong> ${email}</p>
       <p><strong>Message:</strong></p>
       <blockquote style="border-left: 4px solid #007BFF; padding-left: 10px; margin-left: 0;">
-        ${userMessage}
+        ${userMessage.replace(/\n/g, "<br>")}
       </blockquote>
       <p style="font-size: 12px; color: #888;">Click reply to respond to the sender.</p>
     </div>
@@ -44,17 +43,17 @@ type Payload = {
 async function sendEmail(payload: Payload, message: string) {
   const { name, email, message: userMessage } = payload;
 
-  const mailOptions = {
-    from: "Portfolio",
-    to: process.env.EMAIL_ADDRESS,
-    subject: `New Message From ${name}`,
-    text: message,
-    html: generateEmailTemplate(name, email, userMessage),
-    replyTo: email,
-  };
-
   try {
-    await transporter.sendMail(mailOptions);
+    await transporter.sendMail({
+      from: {
+        name,
+        address: email,
+      },
+      to: process.env.EMAIL_ADDRESS,
+      subject: `New Message From ${name}`,
+      text: message,
+      html: generateEmailTemplate(name, email, userMessage),
+    });
     return true;
   } catch (error) {
     if (error instanceof Error) {
@@ -89,7 +88,7 @@ export async function POST(request: Request) {
     return NextResponse.json(
       {
         success: false,
-        message: "Failed to send message or email.",
+        message: "Failed to send email, please try again later.",
       },
       { status: 500 }
     );
