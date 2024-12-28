@@ -1,5 +1,7 @@
 "use client";
 
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import AboutSection from "./components/homepage/about";
 import ContactSection from "./components/homepage/contact";
 import { Education } from "./components/homepage/education";
@@ -22,6 +24,8 @@ export default function Home() {
       <Education />
       <MoreProjects />
       <ContactSection />
+      <SpeedInsights />
+      <Analytics />
     </div>
   );
 }

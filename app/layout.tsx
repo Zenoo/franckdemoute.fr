@@ -1,6 +1,5 @@
 import { personalData } from "@/utils/data/personal-data";
 import { GoogleTagManager } from "@next/third-parties/google";
-import { SpeedInsights } from '@vercel/speed-insights/next';
 import { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { ToastContainer } from "react-toastify";
@@ -59,7 +58,6 @@ export default function RootLayout({
         <Footer />
       </body>
       <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM ?? ""} />
-      <SpeedInsights />
     </html>
   );
 }
