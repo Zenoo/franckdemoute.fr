@@ -1,3 +1,3 @@
-const Version = '5.0.6'; // x-release-please-version
+const Version = '5.0.7'; // x-release-please-version
 
 export default Version;
