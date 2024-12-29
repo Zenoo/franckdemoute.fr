@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.1.5](https://github.com/Zenoo/franckdemoute.fr/compare/franckdemoute.fr-v5.1.4...franckdemoute.fr-v5.1.5) (2024-12-29)
+
+
+### Bug Fixes
+
+* Add README + license ([b4f6572](https://github.com/Zenoo/franckdemoute.fr/commit/b4f6572417e8e068e6978414dddf047df0288cb4))
+
 ## [5.1.4](https://github.com/Zenoo/franckdemoute.fr/compare/franckdemoute.fr-v5.1.3...franckdemoute.fr-v5.1.4) (2024-12-29)
 
 
