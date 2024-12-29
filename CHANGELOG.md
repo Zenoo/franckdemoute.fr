@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.1.4](https://github.com/Zenoo/franckdemoute.fr/compare/franckdemoute.fr-v5.1.3...franckdemoute.fr-v5.1.4) (2024-12-29)
+
+
+### Bug Fixes
+
+* Wrong phone link ([b6e7f2e](https://github.com/Zenoo/franckdemoute.fr/commit/b6e7f2e263672a9be34a4584e5482f28c399b30a))
+
 ## [5.1.3](https://github.com/Zenoo/franckdemoute.fr/compare/franckdemoute.fr-v5.1.2...franckdemoute.fr-v5.1.3) (2024-12-28)
 
 
