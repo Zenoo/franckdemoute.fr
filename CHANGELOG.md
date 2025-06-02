@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.1.7](https://github.com/Zenoo/franckdemoute.fr/compare/franckdemoute.fr-v5.1.6...franckdemoute.fr-v5.1.7) (2025-06-02)
+
+
+### Bug Fixes
+
+* Build error ([fd5087e](https://github.com/Zenoo/franckdemoute.fr/commit/fd5087e2d71cbc77c028184404973e40a8506532))
+
 ## [5.1.6](https://github.com/Zenoo/franckdemoute.fr/compare/franckdemoute.fr-v5.1.5...franckdemoute.fr-v5.1.6) (2025-06-02)
 
 
