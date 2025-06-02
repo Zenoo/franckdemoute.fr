@@ -13,12 +13,6 @@ export const experiences = [
   },
   {
     id: 3,
-    title: "External Applications Community Developer",
-    company: "MotionTwin",
-    duration: "(2012 - 2018)"
-  },
-  {
-    id: 4,
     title: "Developer intern",
     company: "Obcom / R2Design",
     duration: "(2017)"
