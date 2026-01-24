@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.1.8](https://github.com/Zenoo/franckdemoute.fr/compare/franckdemoute.fr-v5.1.7...franckdemoute.fr-v5.1.8) (2026-01-24)
+
+
+### Bug Fixes
+
+* Update profile image ([a805517](https://github.com/Zenoo/franckdemoute.fr/commit/a8055172f17a7817b5050460aa12b178b4049ddf))
+
 ## [5.1.7](https://github.com/Zenoo/franckdemoute.fr/compare/franckdemoute.fr-v5.1.6...franckdemoute.fr-v5.1.7) (2025-06-02)
 
 
