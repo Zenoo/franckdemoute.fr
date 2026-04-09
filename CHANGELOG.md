@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.1.9](https://github.com/Zenoo/franckdemoute.fr/compare/franckdemoute.fr-v5.1.8...franckdemoute.fr-v5.1.9) (2026-04-09)
+
+
+### Bug Fixes
+
+* add cursor pointer to send button for better UX ([641afcf](https://github.com/Zenoo/franckdemoute.fr/commit/641afcf94ed01f42b300361ed361e2dd4220ab86))
+
 ## [5.1.8](https://github.com/Zenoo/franckdemoute.fr/compare/franckdemoute.fr-v5.1.7...franckdemoute.fr-v5.1.8) (2026-01-24)
 
 
