@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.1.10](https://github.com/Zenoo/franckdemoute.fr/compare/franckdemoute.fr-v5.1.9...franckdemoute.fr-v5.1.10) (2026-04-09)
+
+
+### Bug Fixes
+
+* update email sender details and improve button rendering in contact form ([f2fdccf](https://github.com/Zenoo/franckdemoute.fr/commit/f2fdccf088587ef6606a4c7c243019e41d53fa3c))
+
 ## [5.1.9](https://github.com/Zenoo/franckdemoute.fr/compare/franckdemoute.fr-v5.1.8...franckdemoute.fr-v5.1.9) (2026-04-09)
 
 
