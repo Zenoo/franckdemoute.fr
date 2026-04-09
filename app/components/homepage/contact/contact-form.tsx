@@ -124,12 +124,12 @@ function ContactForm() {
               disabled={isLoading}
             >
               {
-                isLoading ?
-                <span>Sending Message...</span>:
-                <span className="flex items-center gap-1">
-                  Send Message
-                  <TbMailForward size={20} />
-                </span>
+                isLoading
+                  ? <span>Sending Message...</span>
+                  : <>
+                      <span>Send Message</span>
+                      <TbMailForward size={20} />
+                    </>
               }
             </button>
           </div>

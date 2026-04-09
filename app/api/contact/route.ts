@@ -42,13 +42,22 @@ type Payload = {
 async function sendEmail(payload: Payload, message: string) {
   const { name, email, message: userMessage } = payload;
 
+  if (!process.env.EMAIL_ADDRESS || !process.env.EMAIL_PASSWORD || !process.env.EMAIL_HOST) {
+    console.error("Email configuration is missing. Please check environment variables.");
+    return false;
+  }
+
   try {
     await transporter.sendMail({
       from: {
-        name,
-        address: email,
+        name: "Contact Form",
+        address: process.env.EMAIL_ADDRESS,
       },
       to: process.env.EMAIL_ADDRESS,
+      replyTo: {
+        name: name,
+        address: email,
+      },
       subject: `New Message From ${name}`,
       text: message,
       html: generateEmailTemplate(name, email, userMessage),
