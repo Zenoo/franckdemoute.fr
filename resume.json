@@ -1,0 +1,794 @@
+{
+  "picture": {
+    "hidden": false,
+    "url": "https://franckdemoute.fr/_next/image?url=%2Fprofile.jpg&w=640&q=75",
+    "size": 64,
+    "rotation": 0,
+    "aspectRatio": 1,
+    "borderRadius": 0,
+    "borderColor": "rgba(0, 0, 0, 0)",
+    "borderWidth": 0,
+    "shadowColor": "rgba(0, 0, 0, 0.5)",
+    "shadowWidth": 0
+  },
+  "basics": {
+    "name": "Franck Demoute",
+    "headline": "IT Designer Developer @ Business Tax",
+    "email": "pro@franckdemoute.fr",
+    "phone": "",
+    "location": "La Rochelle",
+    "website": {
+      "url": "https://franckdemoute.fr",
+      "label": ""
+    },
+    "customFields": []
+  },
+  "summary": {
+    "title": "Summary",
+    "icon": "",
+    "columns": 1,
+    "hidden": false,
+    "content": "<p>Typescript enthusiast, both Front End &amp; Back End.</p><p>Here to leave a part of me in the development community when I'm gone.</p>"
+  },
+  "sections": {
+    "profiles": {
+      "title": "Profiles",
+      "icon": "",
+      "columns": 1,
+      "hidden": false,
+      "items": [
+        {
+          "id": "mpfi1w35ww58ctfgrppa50sm",
+          "hidden": false,
+          "icon": "github",
+          "iconColor": "",
+          "network": "Github",
+          "username": "zenoo",
+          "website": {
+            "url": "https://github.com/Zenoo",
+            "label": "",
+            "inlineLink": false
+          }
+        },
+        {
+          "id": "vunwo6n2w8gpj6w98bcegnw5",
+          "hidden": false,
+          "icon": "linkedin",
+          "iconColor": "",
+          "network": "LinkedIn",
+          "username": "franck-demoute",
+          "website": {
+            "url": "https://www.linkedin.com/in/franck-demoute/",
+            "label": "",
+            "inlineLink": false
+          }
+        },
+        {
+          "id": "rvsbymef7dlois5fzv64c7ib",
+          "hidden": false,
+          "icon": "stackoverflow",
+          "iconColor": "",
+          "network": "StackOverflow",
+          "username": "zenoo",
+          "website": {
+            "url": "https://stackoverflow.com/users/3660134/zenoo",
+            "label": "",
+            "inlineLink": false
+          }
+        },
+        {
+          "id": "bfc4juiosyf5vw8e9ipi5ehr",
+          "hidden": false,
+          "icon": "instagram",
+          "iconColor": "",
+          "network": "Instagram",
+          "username": "climbingfranck",
+          "website": {
+            "url": "https://www.instagram.com/climbingfranck/",
+            "label": "",
+            "inlineLink": false
+          }
+        }
+      ]
+    },
+    "experience": {
+      "title": "Experience",
+      "icon": "",
+      "columns": 1,
+      "hidden": false,
+      "items": [
+        {
+          "id": "c2bhn89pb8mtuk3z3zfztnpv",
+          "hidden": false,
+          "company": "Business Tax",
+          "position": "IT Designer Developer",
+          "location": "France",
+          "period": "June 2025 - Present",
+          "website": {
+            "url": "https://www.businesstax.io/",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "",
+          "roles": []
+        },
+        {
+          "id": "i1ug9ybqu2qumbb56ea5hmx3",
+          "hidden": false,
+          "company": "Sostag / Obcom",
+          "position": "Full Stack Developer",
+          "location": "La Rochelle Area, France",
+          "period": "October 2017 - May 2025",
+          "website": {
+            "url": "https://sostag.fr",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<ul><li><p>CI/CD development and maintenance on different web applications and business management software</p></li><li><p>Development of internal applications, different applications/websites, and maintenance of all of these.</p></li></ul>",
+          "roles": []
+        },
+        {
+          "id": "d1tdesoa710bfgwilm93vv8b",
+          "hidden": false,
+          "company": "Obcom",
+          "position": "Trainee Developer",
+          "location": "La Rochelle Area, France",
+          "period": "July 2017 - August 2017",
+          "website": {
+            "url": "",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<ul><li><p>During 2 months of internship, I optimized and brought functionalities to a moving management application: Somovers.</p></li></ul>",
+          "roles": []
+        },
+        {
+          "id": "jbx9lnz6at5gdk0ii0tb37pd",
+          "hidden": false,
+          "company": "R2Design",
+          "position": "Trainee Developer",
+          "location": "La Rochelle Area, France",
+          "period": "May 2017 - July 2017",
+          "website": {
+            "url": "",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<ul><li><p>During 2 months of internship, I helped develop a site creation CMS.</p></li></ul>",
+          "roles": []
+        }
+      ]
+    },
+    "education": {
+      "title": "Education",
+      "icon": "",
+      "columns": 1,
+      "hidden": false,
+      "items": [
+        {
+          "id": "omwiz31btpkj8jgg9dxckytw",
+          "hidden": false,
+          "school": "La Rochelle University",
+          "degree": "Pro Multimedia Creation License",
+          "area": "",
+          "grade": "",
+          "location": "",
+          "period": "2016 - 2017",
+          "website": {
+            "url": "",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<ul><li><p>The year that gave me the most useful knowledge for my professional career</p></li></ul>"
+        },
+        {
+          "id": "r4f659g247tu0kz5eeasguae",
+          "hidden": false,
+          "school": "La Rochelle University",
+          "degree": "Computer license",
+          "area": "",
+          "grade": "",
+          "location": "",
+          "period": "2013 - 2016",
+          "website": {
+            "url": "",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<ul><li><p>Multiple years learning software development, which redirected me towards web development.</p></li></ul>"
+        },
+        {
+          "id": "q7r4949t7anfc4nchrr2ztzg",
+          "hidden": false,
+          "school": "Jean Brito High School",
+          "degree": "Science Baccalaureate",
+          "area": "",
+          "grade": "",
+          "location": "",
+          "period": "2012",
+          "website": {
+            "url": "",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": ""
+        }
+      ]
+    },
+    "projects": {
+      "title": "Projects",
+      "icon": "",
+      "columns": 1,
+      "hidden": false,
+      "items": [
+        {
+          "id": "fn66jbfnocix5kpb42l228ck",
+          "hidden": false,
+          "name": "LaBrute",
+          "period": "March 2022 - Present",
+          "website": {
+            "url": "https://brute.eternaltwin.org/",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<p>Typescript remake of an old browser game <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"http://labrute.fr\">labrute.fr</a></p>"
+        },
+        {
+          "id": "vm054eko8vy9uicpfdi0gjw3",
+          "hidden": false,
+          "name": " Fullstack Typescript Monorepo",
+          "period": "Dec 2022 - Present",
+          "website": {
+            "url": "https://github.com/Zenoo/fullstack-typescript-monorepo",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<p>FullStack Typescript Monorepo, using NPM workspaces. Prisma + NodeJS + React + MUI</p>"
+        },
+        {
+          "id": "agqzs7s6k2d7dr04kol4ph0r",
+          "hidden": false,
+          "name": " react-append-head",
+          "period": "Sep 2019 - Present",
+          "website": {
+            "url": "https://github.com/Zenoo/react-append-head",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<p>Append JS &amp; CSS files to the document's head without duplicates</p>"
+        },
+        {
+          "id": "wcinjamjinjf5as1rmwyrxci",
+          "hidden": false,
+          "name": "VideoInputPreview",
+          "period": "Jun 2019 - Present",
+          "website": {
+            "url": "https://github.com/Zenoo/video-input-preview",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<p>A Javascript tool that allows you to show a preview for your video inputs before actually uploading the file.</p>"
+        },
+        {
+          "id": "zn4z5ljgabbrvz0n758q5npp",
+          "hidden": false,
+          "name": " Quiz.js",
+          "period": "Mar 2019 - Present",
+          "website": {
+            "url": "https://github.com/Zenoo/Quiz.js",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<p>A Javascript tool to create quizzes easily</p>"
+        },
+        {
+          "id": "mvw0gxyn603fxoree2jas9i4",
+          "hidden": false,
+          "name": " CSS3 Cube",
+          "period": "Feb 2019 - Present",
+          "website": {
+            "url": "https://github.com/Zenoo/CSS3-Cube",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<p>A canvas-free, CSS3 cube. I created this to demonstrate the immense capabilities of the CSS3.</p>"
+        },
+        {
+          "id": "x2eptcz6riiucne5vxntinsc",
+          "hidden": false,
+          "name": " FormulaJS",
+          "period": "Feb 2019 - Present",
+          "website": {
+            "url": "https://github.com/Zenoo/FormulaJS",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<p>A Javascript tools that allows the user to input a custom formula, within your limitations.</p>"
+        },
+        {
+          "id": "axpooiygb4e97avq0g71nkr0",
+          "hidden": false,
+          "name": "LightQuery",
+          "period": "Jan 2019 - Present",
+          "website": {
+            "url": "https://zenoo.github.io/LightQuery/",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<p>10 times smaller than jQuery (90kB =&gt; 9kB). This is a complete rewrite of the well-known jQuery library. Every method has been rewritten or replaced by another method.</p>"
+        },
+        {
+          "id": "khzdxopz4j657a12jax6lady",
+          "hidden": false,
+          "name": "ImageInputPreview",
+          "period": "Dec 2018 - Present",
+          "website": {
+            "url": "https://github.com/Zenoo/image-input-preview",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<p>A Javascript tool that allows you to show a preview for your image inputs before actually uploading the file.</p>"
+        },
+        {
+          "id": "soddrjze4javffhuvru25yxb",
+          "hidden": false,
+          "name": "ImageResize",
+          "period": "Dec 2018 - Present",
+          "website": {
+            "url": "https://github.com/Zenoo/image-resize",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<p>A Javascript plugin that allows you to resize your Image objects or files from your image inputs directly.</p>"
+        },
+        {
+          "id": "m90xyx2xemx9aasaeu5bytow",
+          "hidden": false,
+          "name": "AjaxSender",
+          "period": "Oct 2018 - Present",
+          "website": {
+            "url": "https://github.com/Zenoo/ajax-sender",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<p>A Javascript tool that allows you to easily send AJAX requests. Available in Browser &amp; NodeJS.</p>"
+        },
+        {
+          "id": "cqyomolz13d8cikyhjl6uv3f",
+          "hidden": false,
+          "name": "MovingCostCalculator",
+          "period": "Oct 2018 - Present",
+          "website": {
+            "url": "https://github.com/Zenoo/moving-cost-calculator",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<p>A Javascript tool that allows your users to calculate an estimate of the cost of their move</p>"
+        },
+        {
+          "id": "dnpnk4bicl5e27pthhwdbhe6",
+          "hidden": false,
+          "name": "AddressSearch",
+          "period": "Aug 2018 - Present",
+          "website": {
+            "url": "https://github.com/Zenoo/address-search",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<p>A Javascript tool for address searching with typeaheads and multiple choices. Uses Google Places API.</p>"
+        },
+        {
+          "id": "j1rbr7s6z8f915y4p632gmvb",
+          "hidden": false,
+          "name": "SlickComplete",
+          "period": "Jul 2018 - Present",
+          "website": {
+            "url": "https://github.com/Zenoo/slick-complete",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<p>A Javascript tool for an easy input autocompletion.</p>"
+        },
+        {
+          "id": "cnkwn31niczvpxosbgw6k9s8",
+          "hidden": false,
+          "name": "AjaxTable",
+          "period": "May 2018 - Present",
+          "website": {
+            "url": "https://github.com/Zenoo/ajaxTable",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<p>A Javascript tool that handles your table displays asynchronously</p>"
+        },
+        {
+          "id": "psame1xo147ogvso8f6blmrh",
+          "hidden": false,
+          "name": "ExcelExport",
+          "period": "May 2018 - Present",
+          "website": {
+            "url": "https://github.com/Zenoo/excel-export",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<p>A Javascript tool to export your HTML tables to an Excel file</p>"
+        },
+        {
+          "id": "d0xy94ybvtubbubjk8auz2xs",
+          "hidden": false,
+          "name": "SlickLoader",
+          "period": "May 2018 - Present",
+          "website": {
+            "url": "https://github.com/Zenoo/slick-loader",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<p>A loader to use during your AJAX calls or your data processing.</p>"
+        },
+        {
+          "id": "b4eveqw92gglovpo2x3ymrmh",
+          "hidden": false,
+          "name": "QuickModal",
+          "period": "Nov 2017 - Present",
+          "website": {
+            "url": "https://github.com/Zenoo/quickModal",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<p>A Javascript tool that allows you to create modals easily.</p>"
+        },
+        {
+          "id": "mrisy9cmocz7s1hywi06nfdq",
+          "hidden": false,
+          "name": "jQuery-csvExport",
+          "period": "May 2017 - Present",
+          "website": {
+            "url": "https://github.com/Zenoo/JQuery-csvExport",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<p>A Javascript tool that allows you to export your HTML tables to .csv files</p>"
+        },
+        {
+          "id": "wury9zinywgpdquyq9and90i",
+          "hidden": false,
+          "name": "jQuery-pageScroller",
+          "period": "May 2017 - Present",
+          "website": {
+            "url": "https://github.com/Zenoo/JQuery-pageScroller",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<p>A jQuery plugin that allows you to create one-pages easily.</p>"
+        },
+        {
+          "id": "hcoz1digka4jg8p719rw5h4a",
+          "hidden": false,
+          "name": "OfflineHandler",
+          "period": "",
+          "website": {
+            "url": "https://github.com/Zenoo/offline-handler",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<p>A Javascript tool that allows your websites to be offline-accessible without going through all the trouble of setting it up yourself</p>"
+        }
+      ]
+    },
+    "skills": {
+      "title": "Skills",
+      "icon": "",
+      "columns": 1,
+      "hidden": false,
+      "items": [
+        {
+          "id": "igq8h77eun4cv8zn62716uj5",
+          "hidden": false,
+          "icon": "",
+          "iconColor": "",
+          "name": "Typescript / Javascript",
+          "proficiency": "",
+          "level": 5,
+          "keywords": [
+            "ESLint",
+            "Prettier",
+            "Webpack",
+            "Rollup"
+          ]
+        },
+        {
+          "id": "m1xkgpa6b2ldd1a8985ajwew",
+          "hidden": false,
+          "icon": "",
+          "iconColor": "",
+          "name": "React",
+          "proficiency": "",
+          "level": 5,
+          "keywords": []
+        },
+        {
+          "id": "xw3g8dxxpsb31irfkh7k30m5",
+          "hidden": false,
+          "icon": "",
+          "iconColor": "",
+          "name": "Node.JS",
+          "proficiency": "",
+          "level": 5,
+          "keywords": [
+            "Express"
+          ]
+        },
+        {
+          "id": "lde0gng1r5z8e02cdh2fclpd",
+          "hidden": false,
+          "icon": "",
+          "iconColor": "",
+          "name": "SQL",
+          "proficiency": "",
+          "level": 5,
+          "keywords": [
+            "PostgreSQL",
+            "MongoDB",
+            "MySQL"
+          ]
+        },
+        {
+          "id": "s001mc65fape9qqk7t62ausb",
+          "hidden": false,
+          "icon": "",
+          "iconColor": "",
+          "name": "Prisma ORM",
+          "proficiency": "",
+          "level": 5,
+          "keywords": []
+        },
+        {
+          "id": "osdwxjx33lys9wlswl7nl6f6",
+          "hidden": false,
+          "icon": "",
+          "iconColor": "",
+          "name": "Material UI (MUI)",
+          "proficiency": "",
+          "level": 5,
+          "keywords": []
+        },
+        {
+          "id": "enf5q940i09r49ts5cg5kk09",
+          "hidden": false,
+          "icon": "",
+          "iconColor": "",
+          "name": "Java",
+          "proficiency": "",
+          "level": 3,
+          "keywords": []
+        },
+        {
+          "id": "z7evagzbus5m6j9dwqdh3akq",
+          "hidden": false,
+          "icon": "",
+          "iconColor": "",
+          "name": "PHP",
+          "proficiency": "",
+          "level": 3,
+          "keywords": []
+        },
+        {
+          "id": "uocu7xvtlnv679sxgz8mu6tb",
+          "hidden": false,
+          "icon": "",
+          "iconColor": "",
+          "name": "AWS",
+          "proficiency": "",
+          "level": 3,
+          "keywords": []
+        },
+        {
+          "id": "vfjpre4ugr8ieyls12t4vys2",
+          "hidden": false,
+          "icon": "",
+          "iconColor": "",
+          "name": "nginx",
+          "proficiency": "",
+          "level": 3,
+          "keywords": []
+        }
+      ]
+    },
+    "languages": {
+      "title": "Languages",
+      "icon": "",
+      "columns": 1,
+      "hidden": false,
+      "items": [
+        {
+          "id": "v5yoct0oxsvdjwnb394tf2x1",
+          "hidden": false,
+          "language": "French",
+          "fluency": "Native",
+          "level": 5
+        },
+        {
+          "id": "vhs6egebvgx6yf2nokdtjf5e",
+          "hidden": false,
+          "language": "English",
+          "fluency": "Bilingual proficiency",
+          "level": 5
+        }
+      ]
+    },
+    "interests": {
+      "title": "Interests",
+      "icon": "",
+      "columns": 1,
+      "hidden": false,
+      "items": [
+        {
+          "id": "tyv1mhvfzqok2l3gspsuthtg",
+          "hidden": false,
+          "icon": "",
+          "iconColor": "",
+          "name": "Web development",
+          "keywords": []
+        },
+        {
+          "id": "xexsaua9bvqjdgnwpiizez8v",
+          "hidden": false,
+          "icon": "",
+          "iconColor": "",
+          "name": "Climbing",
+          "keywords": []
+        }
+      ]
+    },
+    "awards": {
+      "title": "Awards",
+      "icon": "",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    },
+    "certifications": {
+      "title": "Certifications",
+      "icon": "",
+      "columns": 1,
+      "hidden": false,
+      "items": [
+        {
+          "id": "las1g53aagx3cl7u1opfl6au",
+          "hidden": false,
+          "title": "CodinGame Certification - TypeScript",
+          "issuer": "CodinGame",
+          "date": "January 2023",
+          "website": {
+            "url": "https://www.codingame.com/certification/ff91L2e1pyqFXM27SBRsnA",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": ""
+        }
+      ]
+    },
+    "publications": {
+      "title": "Publications",
+      "icon": "",
+      "columns": 1,
+      "hidden": false,
+      "items": [
+        {
+          "id": "opxv426bfvmjarjk6yde10gb",
+          "hidden": false,
+          "title": "Optimize your website for SEO",
+          "publisher": "Github",
+          "date": "Feb 20, 2019",
+          "website": {
+            "url": "https://github.com/Zenoo/seo-optimization",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<p>Some tips to optimize your website for SEO.</p>"
+        }
+      ]
+    },
+    "volunteer": {
+      "title": "Volunteering",
+      "icon": "",
+      "columns": 1,
+      "hidden": false,
+      "items": [
+        {
+          "id": "u4v16c4j657k6iw4uhidb4k5",
+          "hidden": false,
+          "organization": "Motion-Twin",
+          "location": "",
+          "period": "Jan 2012 - Jan 2018",
+          "website": {
+            "url": "https://motiontwin.com/",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<ul><li><p>By defining user needs, I developed and maintained applications that ease the life for users of the Motion-Twin platform.</p></li></ul>"
+        }
+      ]
+    },
+    "references": {
+      "title": "References",
+      "icon": "",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    }
+  },
+  "customSections": [],
+  "metadata": {
+    "template": "gengar",
+    "layout": {
+      "sidebarWidth": 35,
+      "pages": [
+        {
+          "fullWidth": false,
+          "main": [
+            "summary",
+            "experience",
+            "education",
+            "volunteer",
+            "projects",
+            "references"
+          ],
+          "sidebar": [
+            "profiles",
+            "skills",
+            "languages",
+            "interests",
+            "certifications",
+            "awards",
+            "publications"
+          ]
+        }
+      ]
+    },
+    "page": {
+      "gapX": 4,
+      "gapY": 6,
+      "marginX": 18,
+      "marginY": 18,
+      "format": "a4",
+      "locale": "en-US",
+      "hideLinkUnderline": false,
+      "hideIcons": false,
+      "hideSectionIcons": true
+    },
+    "design": {
+      "level": {
+        "icon": "star",
+        "type": "circle"
+      },
+      "colors": {
+        "primary": "rgba(124, 58, 237, 1)",
+        "text": "rgba(0, 0, 0, 1)",
+        "background": "rgba(255, 255, 255, 1)"
+      }
+    },
+    "typography": {
+      "body": {
+        "fontFamily": "IBM Plex Serif",
+        "fontWeights": [
+          "400",
+          "400",
+          "600"
+        ],
+        "fontSize": 10.5,
+        "lineHeight": 1.5
+      },
+      "heading": {
+        "fontFamily": "IBM Plex Serif",
+        "fontWeights": [
+          "600"
+        ],
+        "fontSize": 13.5,
+        "lineHeight": 1.5
+      }
+    },
+    "notes": "",
+    "styleRules": []
+  }
+}

@@ -44,7 +44,6 @@ function HeroSection() {
               gender: "male",
               memberOf: "Sostag",
               nationality: "French",
-              telephone: "06 72 35 21 77",
               url: "https://franckdemoute.fr",
             }}
           />
