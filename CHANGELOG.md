@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.1.13](https://github.com/Zenoo/franckdemoute.fr/compare/franckdemoute.fr-v5.1.12...franckdemoute.fr-v5.1.13) (2026-06-15)
+
+
+### Bug Fixes
+
+* Disable pdf indexing ([293f7f8](https://github.com/Zenoo/franckdemoute.fr/commit/293f7f845740f34433f79c69c3de27f51abfbfff))
+
 ## [5.1.12](https://github.com/Zenoo/franckdemoute.fr/compare/franckdemoute.fr-v5.1.11...franckdemoute.fr-v5.1.12) (2026-06-02)
 
 
