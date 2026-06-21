@@ -30,8 +30,8 @@ importers:
         specifier: 15.5.18
         version: 15.5.18(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.83.0)
       nodemailer:
-        specifier: ^8.0.9
-        version: 8.0.9
+        specifier: ^9.0.1
+        version: 9.0.1
       react:
         specifier: 19.0.0
         version: 19.0.0
@@ -1724,8 +1724,8 @@ packages:
   node-releases@2.0.37:
     resolution: {integrity: sha512-1h5gKZCF+pO/o3Iqt5Jp7wc9rH3eJJ0+nh/CIoiRwjRxde/hAHyLPXYN4V3CqKAbiZPSeJFSWHmJsbkicta0Eg==}
 
-  nodemailer@8.0.9:
-    resolution: {integrity: sha512-5ofa7BUN8+C+Hckh5V2GjeeOGRQBx0CJQA6KxrvuZfC8iU4/q7sLn8XrtEEhJkjV6HdyIiQs7Bba6bTao8JhkA==}
+  nodemailer@9.0.1:
+    resolution: {integrity: sha512-Gwv8SQewT616ZM/URn0H54b8PWo/Wum7md3EW2aWy1lO27+WZCX+Xyak3J+NlmHUjDh5ME+uesJUDRbR3Ye8Bw==}
     engines: {node: '>=6.0.0'}
 
   object-assign@4.1.1:
@@ -3748,7 +3748,7 @@ snapshots:
 
   node-releases@2.0.37: {}
 
-  nodemailer@8.0.9: {}
+  nodemailer@9.0.1: {}
 
   object-assign@4.1.1: {}
 
